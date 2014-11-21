@@ -1,0 +1,955 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sola_t\n"
+"POT-Creation-Date: 2014-11-19 15:41+0200\n"
+"PO-Revision-Date: 2014-11-19 15:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress38\\wp-content\\plugins\\sola-"
+"testimonials\n"
+"X-Poedit-SearchPath-1: C:\\wamp\\www\\wordpress38\\wp-content\\plugins\\sola-"
+"testimonials-pro\n"
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:2
+msgid ""
+"Specify if you want to display a specific field, whether its required or "
+"not, its label and description and a default category for your submission "
+"form below."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:5
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:15
+msgid "Display Title Input?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:11
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:24
+msgid "Title Field Required?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:17
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:30
+msgid "Title Field Label"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:23
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:36
+msgid "Title Field Description"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:34
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:47
+msgid "Display Name Input?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:40
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:53
+msgid "Name Field Required?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:46
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:59
+msgid "Name Field Label"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:52
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:65
+msgid "Name Field Description"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:63
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:76
+msgid "Display Website Name Input?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:69
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:82
+msgid "Website Name Field Required?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:75
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:88
+msgid "Website Name Field Label"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:81
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:94
+msgid "Website Name Field Description"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:92
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:105
+msgid "Display Website Address Input?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:98
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:111
+msgid "Website Address Field Required?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:104
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:117
+msgid "Website Address Field Label"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:110
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:123
+msgid "Website Address Field Description"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:121
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:134
+msgid "Body Content Field Label"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:127
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:140
+msgid "Body Content Field Description"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:139
+msgid "ReallySimpleCaptcha"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:140
+msgid "CAPTCHA can only be enabled if "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:149
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:151
+msgid "Enable CAPTCHA?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:156
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:157
+msgid "CAPTCHA Field Label"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:162
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:163
+msgid "CAPTCHA Address Field Description"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:178
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:872
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:174
+msgid "Allow Users To Choose A Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:182
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:198
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:9
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:5
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:47
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:65
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/slider.php:9
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:4
+msgid "Premium Version"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:183
+msgid ""
+"Allow users to choose the category they want their testimonial to be added "
+"to, only available in the "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:194
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:483
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:791
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:831
+msgid "Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:199
+msgid ""
+"Choose choose the default category your testimonial will be added to, only "
+"available in the "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:211
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:97
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:66
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:91
+msgid "Update Settings"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:4
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:759
+msgid "Display Testimonials in a Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:7
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:762
+msgid "Show off your raving testimonials in a slider."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:11
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:766
+msgid "Display Testimonials Based on a Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:14
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:769
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:889
+msgid "Display and group your testimonials."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:23
+msgid "Show Image In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:29
+msgid "Show Title In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:35
+msgid "Show Excerpt In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:41
+msgid "Show User Name In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:47
+msgid "Show User Website In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:58
+msgid "Show Slider Navigation"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:61
+msgid "Next/Previous buttons on the left and right of the slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:65
+msgid "Show Slider Pagination"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:68
+msgid "Navigation/Buttons at the bottom of the slider (Bullets)"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:72
+msgid "Number of Items Per Slide"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:75
+msgid "Number of testimonials that should be displayed in each slide."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:84
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:78
+msgid "Custom CSS"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:87
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:32
+msgid "Click here"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:101
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:96
+msgid "Available Classes"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:102
+msgid ""
+"The following classes can be used to style your testimonials in your slider "
+"to your preference"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:122
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:127
+msgid "An unknown error occurred"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:142
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:710
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:32
+msgid "Title"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:143
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:711
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:38
+msgid "Provide a title for your testimonial."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:146
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:715
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:61
+msgid "Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:147
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:716
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:67
+msgid "What is your name?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:150
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:720
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:90
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:378
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:476
+msgid "Website Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:151
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:721
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:96
+msgid "What is the name of your website?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:154
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:725
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:119
+msgid "Website URL"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:155
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:726
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:125
+msgid "What is the URL to your website?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:156
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:728
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:136
+msgid "Body"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:157
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:729
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:142
+msgid "Tell us your thoughts?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:159
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:732
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:159
+msgid "CAPTCHA Verification"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:160
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:733
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:165
+msgid "Please verify you are human."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:180
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:187
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:778
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:7
+msgid "Submit A Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:337
+msgid "A valid title is required."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:356
+msgid "Your name is required."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:366
+msgid "Email Address"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:369
+msgid "What is your email address?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:376
+msgid "Your email address is required."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:395
+msgid "A valid name is required."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:414
+msgid "A valid URL is required (Include http://)"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:432
+msgid "A valid testimonial is required."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:492
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:846
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:187
+msgid "None"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:496
+msgid "What category would you like to add your testimonial to?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:692
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:743
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:580
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:607
+msgid "Update Successful"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:698
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:749
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:586
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:613
+msgid "No changes were made"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:781
+msgid "Allow your visitors to submit a testimonial on your website."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:790
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:800
+msgid "Categories"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:792
+msgid "Search Categories"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:793
+msgid "All Categories"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:794
+msgid "Parent Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:795
+msgid "Parent Category:"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:796
+msgid "Edit Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:797
+msgid "Update Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:798
+msgid "Add New Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:799
+msgid "New Category Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:849
+msgid "Choose choose the default category your testimonial will be added to"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:853
+msgid "You have not created any categories."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:876
+msgid ""
+"Allow users to choose the category they want their testimonial to be added to"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:886
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/forms.php:185
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:67
+msgid "Display Testimonials Based On Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/feedback.php:9
+msgid "Sola Testimonials Feedback"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/feedback.php:11
+msgid "We'd love to hear your comments and/or suggestions"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/feedback.php:16
+msgid "Your Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/feedback.php:24
+msgid "Your Email"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/feedback.php:32
+msgid "Your Website"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/feedback.php:40
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:161
+msgid "Feedback"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/feedback.php:50
+msgid "Send Feedback"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:6
+msgid "Support Desk"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:7
+msgid "Contact"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:9
+msgid ""
+"If you find any errors or if you have any suggestions, Get in contact with "
+"us via our "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:15
+msgid "Sola Testimonials Premium Version: "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:16
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:21
+msgid "Support"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:20
+msgid "Sola Testimonials Version: "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/footer.php:22
+msgid "Go Premium"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:4
+msgid "Sola Testimonials - Settings"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:5
+msgid ""
+"Please ensure you have saved any changes before navigating to another tab"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:10
+msgid "Styles"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:11
+msgid "Shortcodes"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:12
+msgid "Options"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:13
+msgid "Form Options"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:14
+msgid "Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings.php:16
+msgid "Upgrade"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:2
+msgid ""
+"The below options will only affect testimonials using the 'Single' or 'Grid' "
+"Layouts. To change the options of your slider, plese navigate to the "
+"'Slider' tab."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:5
+msgid "Show Testimonial Title"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:8
+msgid ""
+"By checking this, the title of each testimonial will be displayed in all "
+"layouts"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:12
+msgid "Show Testimonial Body"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:15
+msgid ""
+"By checking this, the body of each testimonial will be displayed in all "
+"layouts"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:19
+msgid "Excerpt Length"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:22
+msgid "How long should your testimonial teaser be? (Specify number of words)."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:26
+msgid "Default Image Size"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:29
+msgid "Size of testimonial images (px)."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:33
+msgid "Read More Link"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:36
+msgid ""
+"What would you like your users to click on to read more about your "
+"testimonial?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:40
+msgid "Show User's Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:43
+msgid "By checking this, the user's name will display next to each testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:47
+msgid "Show Link To User's Website"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:50
+msgid ""
+"By checking this, a link will display next to each testimonial containing "
+"their web address."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:54
+msgid "Show Testimonial Image"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/options.php:57
+msgid "By checking this, an image will display next to each testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:20
+msgid "Display A Single Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:23
+msgid "Show off a single tesimonial. Use the ID of the testimonial."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:32
+msgid "Display All Testimonials"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:35
+msgid "Show off your raving reviews all on one page"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:49
+msgid "Display Testimonials In A Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/slider.php:13
+msgid "Slider Preview"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:4
+msgid "Choose an Image Style"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:6
+msgid "Image 1"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:7
+msgid "Image 2"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:18
+msgid "Choose a Layout"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:20
+msgid "Layout 1"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:21
+msgid "Layout 2"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:22
+msgid "Layout 3"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:23
+msgid "Layout 4"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:24
+msgid "Layout 5"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:43
+msgid "Choose a Theme"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:54
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:55
+msgid "Clean Theme"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:56
+msgid "Bubble Theme"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:57
+msgid "Card Theme"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:65
+msgid "Unlock all themes"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:81
+msgid "Style your testimonials to your preference."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/styles.php:97
+msgid ""
+"The following classes can be used to style your testimonials to your "
+"preference"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:8
+msgid "Priority Support"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:9
+msgid "Pay once and never again!"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:10
+msgid "Allow your visitors to submit a testimonial on your site."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:11
+msgid "Display testimonials in a slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:12
+msgid "Organize your testimonials into categories"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:13
+msgid "Choose a default category your testimonials will be added to   "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:16
+msgid "$19.99"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:3
+msgid "Welcome to "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:6
+msgid "A super easy to use and comprehensive Testimonial plugin."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:10
+msgid "How did you find us?"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:15
+msgid "WordPress.org plugin repository "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:18
+msgid "Search Term"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:22
+msgid "Google or other search Engine"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:28
+msgid "Friend recommendation"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:34
+msgid "Other"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:38
+msgid "Please Explain"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:47
+msgid "Submit"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/includes/welcome-page.php:49
+msgid "Skip"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:98
+msgid "Testimonial Author"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:105
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:328
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:570
+msgid "Read More"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:123
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:130
+msgid "Our Testimonials"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:160
+msgid "Settings"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:280
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:282
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:283
+msgid "Testimonials"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:281
+msgid "Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:284
+msgid "Add New"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:285
+msgid "Add New Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:286
+msgid "New Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:287
+msgid "Edit Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:288
+msgid "View Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:289
+msgid "All Testimonials"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:290
+msgid "Search Testimonials"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:291
+msgid "Parent Testimonials:"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:292
+msgid "No testimonials Found."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:293
+msgid "No testimonials Found In Trash."
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:337
+msgid "Testimonial Data"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:354
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:356
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:475
+msgid "User Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:360
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:362
+msgid "User Email Address"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:364
+msgid ""
+"The users email address will be used to show their gravatar image. To use a "
+"custom image, leave this field blank and enter an Image URL below. "
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:369
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:371
+msgid "Image URL"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:373
+msgid "Leave this field blank to use the gravatar image of the author"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:380
+msgid "User Website Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:384
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:477
+msgid "Website Address"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:386
+msgid "User Web Address"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:390
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:479
+msgid "Shortcode"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:439
+msgid "Testimonial Status"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:457
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:478
+msgid "Status"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:461
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:503
+msgid "Pending Approval"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:462
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:501
+msgid "Approved"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:520
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:532
+msgid "Thank you for your feedback. We will be in touch soon"
+msgstr ""
+
+#: C:\wamp\www\wordpress38\wp-content\plugins\sola-testimonials/sola-testimonials.php:536
+msgid "There was a problem sending your feedback. Please log your feedback on "
+msgstr ""
