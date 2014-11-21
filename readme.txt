@@ -32,7 +32,7 @@ The easiest to use Testimonial plugin! Showcase your testimonials in a beautiful
 * Show/hide the testimonial name
 * Show/hide the testimonial website and link
 * All testimonial links are nofollow as per Google Webmaster Guidelines
-* Show/hie the testimonial image
+* Show/hide the testimonial image
 
 = Premium Features =
 * Two additional themes
