@@ -37,7 +37,7 @@ function sola_t_all_testimonials($atts){
         
         if(isset($show_body) && $show_body == 1){
             $the_body = "
-                <div class=\"sola_t_body\">&ldquo;".get_the_excerpt()."&rdquo;</div>";
+                <div class=\"sola_t_body\">&ldquo;".striptags(get_the_excerpt(),"<a><b><em><strong><i><h>")."&rdquo;</div>";
         } else {
             $the_body = "";
         }

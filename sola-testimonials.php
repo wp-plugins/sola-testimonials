@@ -3,10 +3,17 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.0
+ * Version: 1.1
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
+ */
+
+/*
+ * 1.1 - 2014-11-21
+ * Fixed the bug that caused an unnecessary break in the body of the testimonial
+ * Neatened up the testimonial options page
+ * 
  */
 
 define('SOLA_T_PLUGIN_NAME', 'Sola Testimonials');
