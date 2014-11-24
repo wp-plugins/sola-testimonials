@@ -132,4 +132,4 @@ Not applicable.
 * Neatened up the testimonial options page
 
 = 1.0 - 2014-11-21 =
-First version!
+First version
