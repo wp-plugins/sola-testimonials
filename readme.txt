@@ -1,7 +1,7 @@
 === Sola Testimonials ===
 Contributors: SolaPlugins, Jarryd Long, NickDuncan
 Donate link: http://solaplugins.com
-Tags: testimonial, testimonials, testimonial plugin, reviews, recommendations, client testimonials, testimonial widget, testimonial manager
+Tags: testimonial, testimonials, testimonial plugin, testimonial widget, testimonial manager
 Requires at least: 3.6
 Tested up to: 4.0
 Stable tag: trunk
@@ -123,6 +123,9 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.2 - 2014-11-24 =
+* Fixed the bug that caused a fatal error on the testimonials page
 
 = 1.1 - 2014-11-21 =
 * Fixed the bug that caused an unnecessary break in the body of the testimonials
