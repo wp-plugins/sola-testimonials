@@ -19,6 +19,7 @@ The easiest to use Testimonial plugin! Showcase your testimonials in a beautiful
 * Responsive
 * Show all testimonials via a shortcode
 * Show a single testimonial via a shortcode
+* Show a random testimonial via a shortcode
 * Five layouts to choose from: single coloumn, two columns, three columns, four columns and a blank layout
 * Two beautiful, modern themes to choose from
 * Add custom CSS to create your own testimonial styles and themes
@@ -47,15 +48,36 @@ The easiest to use Testimonial plugin! Showcase your testimonials in a beautiful
 
 = Coming Soon =
 * Themes: Testimonial themes will be created and added every week
+* Pagination: If testimonials exceed the max amount per line, pagination will be used
+* Allow multiple testimonials to be selected within one shortcode
 * Triggers (Request users to submit a testimonial after a specified action)
 * Allow users to submit reviews (star ratings included in testimonial)
 
 = Shortcodes =
-Show all testimonials on a page/post:
+Show all Testimonials
 `[sola_t_all_testimonials]`
 
-Show a specific testimonial on a page/post:
+Show all Testimonials of a certain category
+`[sola_t_all_testimonials cat_id=6]`
+
+Show a random testimonial from a certain category
+`[sola_t_all_testimonials cat_id=6 random=yes]`
+
+Show a random testimonial
+`[sola_t_all_testimonials random=yes]`
+
+Show a single testimonial
 `[sola_testimonial id=1]`
+
+Show all Testimonials in a responsive slider (Pro)
+`[sola_testimonial_slider]`
+
+Show all Testimonials of a certain category in a responsive slider (Pro)
+`[sola_testimonial_slider cat_id=1]`
+
+Testimonial submit form (Pro)
+`[sola_testimonial_submit_form]`
+
 
 = Translations =
 Get a free copy of the Sola Testimonials Premium version in exchange for translating our plugin!
@@ -123,6 +145,13 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.3 - 2014-11-25 =
+* Code improvements
+* Testimonial structure improvements
+* New shortcode addition to show a random testimonial
+* Bug fix: Sola Testimonials welcome page kept showing up for some users
+* Pro: Two new testimonial themes added
 
 = 1.2 - 2014-11-24 =
 * Fixed the bug that caused a fatal error on the testimonials page

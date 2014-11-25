@@ -2,6 +2,9 @@
 
 add_shortcode('sola_testimonial', 'sola_t_all_testimonials');
 add_shortcode('sola_t_all_testimonials', 'sola_t_all_testimonials');
+add_shortcode('sola_testimonials_all', 'sola_t_all_testimonials');
+
+
 
 function sola_t_all_testimonials($atts){
     global $post;
@@ -18,7 +21,11 @@ function sola_t_all_testimonials($atts){
     if(function_exists('sola_t_register_pro')){
         $my_query = testimonials_in_categories($atts);
     } else {
-        if (isset($atts['id']) && $atts['id'] > 0) {
+        
+        if (isset($atts['random']) && $atts['random'] == "yes") {
+            $my_query = new WP_Query('post_type=testimonials&posts_per_page=1&orderby=rand');
+        }
+        else if (isset($atts['id']) && $atts['id'] > 0) {
             $my_query = new WP_Query('post_type=testimonials&posts_per_page=1&p='.$atts['id']);
         } else {
             $my_query = new WP_Query('post_type=testimonials&posts_per_page=-1&status=publish');
@@ -27,7 +34,7 @@ function sola_t_all_testimonials($atts){
     $ret = "<div class='sola_t_container'>";
     $cnt = 0;
     while ($my_query->have_posts()): $my_query->the_post(); 
-    $cnt++;
+        $cnt++;
         if(isset($show_title) && $show_title == 1){
             $the_title = "
                 <div class=\"sola_t_title\"><a href=\"".get_the_permalink($post->ID)."\">".get_the_title()."</a></div>";
@@ -136,11 +143,29 @@ function sola_t_all_testimonials($atts){
             $the_image = "";
         }
         
-        switch($layout){
-            case 'layout-1':
-                $content = "
-                    <div class=\"sola_t_layout_1_container $theme sola_t_cnt_$cnt\">                    
-                        <div class=\"sola_t_container\">
+        
+        switch($theme) {
+            case 'theme-5':
+                $structure = "
+                    <div class=\"sola_t_container\">
+                            <div class=\"sola_t_container_body\">
+                                $the_title
+                                $the_body
+                            </div>
+                            
+                            <div class='meta-container'>
+                                $the_image
+                                    <div class=\"sola_t_meta_data\">
+                                        $the_name
+                                        $the_website
+                                    </div>
+                            </div>
+                            
+                        </div>";
+                break;
+            default:
+                $structure = "
+                    <div class=\"sola_t_container\">
                             $the_image
                             <div class=\"sola_t_container_body\">
                                 $the_title
@@ -150,74 +175,44 @@ function sola_t_all_testimonials($atts){
                                 $the_name
                                 $the_website
                             </div>
-                        </div>
+                        </div>";
+                break;
+                
+        }
+        
+        switch($layout){
+            case 'layout-1':
+                $content = "
+                    <div class=\"sola_t_layout_1_container $theme sola_t_cnt_$cnt\">                    
+                        $structure
                     </div>
                 ";
                 break;
             case 'layout-2':
                 $content = "
                     <div class=\"sola_t_layout_2_container $theme sola_t_cnt_$cnt\">                    
-                        <div class=\"sola_t_container\">
-                            $the_image
-                            <div class=\"sola_t_container_body\">
-                                $the_title
-                                $the_body
-                            </div>
-                            <div class=\"sola_t_meta_data\">
-                                $the_name
-                                $the_website
-                            </div>
-                        </div>
+                        $structure
                     </div>
                 ";
                 break;
             case 'layout-3':
                 $content = "
                     <div class=\"sola_t_layout_3_container $theme sola_t_cnt_$cnt\">                    
-                        <div class=\"sola_t_container\">
-                            $the_image
-                            <div class=\"sola_t_container_body\">
-                                $the_title
-                                $the_body
-                            </div>
-                            <div class=\"sola_t_meta_data\">
-                                $the_name
-                                $the_website
-                            </div>
-                        </div>
-
+                        $structure
                     </div>
                 ";
                 break;
             case 'layout-4':
                 $content = "
                     <div class=\"sola_t_layout_4_container $theme sola_t_cnt_$cnt\">                    
-                        <div class=\"sola_t_container\">
-                            $the_image
-                            <div class=\"sola_t_container_body\">
-                                $the_title
-                                $the_body
-                            </div>
-                            <div class=\"sola_t_meta_data\">
-                                $the_name
-                                $the_website
-                            </div>
-                        </div>
+                        $structure
                     </div>
                 ";
                 break;
             case 'layout-5':
                     $content = "
                         <div class=\"sola_t_layout_5_container sola_t_cnt_$cnt\">                    
-                            <div class=\"sola_t_container\">
-                                    $the_image
-                                    $the_title
-                                    $the_body
-                                <div class=\"sola_t_meta_data\">
-                                    $the_name
-                                    $the_website
-                                </div>
-                            </div>
+                            $structure
                         </div>
                     ";
                     break;

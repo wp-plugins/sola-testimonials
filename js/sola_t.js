@@ -147,67 +147,20 @@ jQuery(document).ready(function() {
         jQuery("#sola_t_layout_1").removeClass("layout_activate");
     });
     
+    jQuery(".sola_t_theme_select").click(function() {
+        var orig_tid = jQuery(this).attr('tid');
+        console.log(orig_tid);
+        jQuery( ".sola_t_theme_select" ).each(function() {
+            var tid = jQuery(this).attr('tid');
+            jQuery("#sola_t_rb_theme_"+tid).attr('checked', false);
+            jQuery("#sola_t_theme_"+tid).removeClass("layout_activate");
+        });
+        jQuery("#sola_t_rb_theme_"+orig_tid).attr('checked', true);
+        jQuery("#sola_t_theme_"+orig_tid).addClass("layout_activate");
+        
+    });
     
-    jQuery("#sola_t_theme_1").click(function() {
-        jQuery("#sola_t_rb_theme_1").attr('checked', true);
-        jQuery("#sola_t_rb_theme_2").attr('checked', false);
-        jQuery("#sola_t_rb_theme_3").attr('checked', false);
-        jQuery("#sola_t_rb_theme_4").attr('checked', false);
-        jQuery("#sola_t_theme_1").addClass("layout_activate");
-        jQuery("#sola_t_theme_2").removeClass("layout_activate");
-        jQuery("#sola_t_theme_3").removeClass("layout_activate");
-        jQuery("#sola_t_theme_4").removeClass("layout_activate");
-        jQuery("#sola_t_theme_5").removeClass("layout_activate");
-    });
-    jQuery("#sola_t_theme_2").click(function() {
-        jQuery("#sola_t_rb_theme_2").attr('checked', true);
-        jQuery("#sola_t_rb_theme_1").attr('checked', false);
-        jQuery("#sola_t_rb_theme_3").attr('checked', false);
-        jQuery("#sola_t_rb_theme_4").attr('checked', false);
-        jQuery("#sola_t_theme_2").addClass("layout_activate");
-        jQuery("#sola_t_theme_1").removeClass("layout_activate");
-        jQuery("#sola_t_theme_3").removeClass("layout_activate");
-        jQuery("#sola_t_theme_4").removeClass("layout_activate");
-        jQuery("#sola_t_theme_5").removeClass("layout_activate");
-    });
-    jQuery("#sola_t_theme_3").click(function() {
-        jQuery("#sola_t_rb_theme_3").attr('checked', true);
-        jQuery("#sola_t_rb_theme_1").attr('checked', false);
-        jQuery("#sola_t_rb_theme_2").attr('checked', false);
-        jQuery("#sola_t_rb_theme_4").attr('checked', false);
-        jQuery("#sola_t_theme_3").addClass("layout_activate");
-        jQuery("#sola_t_theme_2").removeClass("layout_activate");
-        jQuery("#sola_t_theme_1").removeClass("layout_activate");
-        jQuery("#sola_t_theme_4").removeClass("layout_activate");
-        jQuery("#sola_t_theme_5").removeClass("layout_activate");
-    });
-    jQuery("#sola_t_theme_4").click(function() {
-        jQuery("#sola_t_rb_theme_4").attr('checked', true);
-        jQuery("#sola_t_rb_theme_2").attr('checked', false);
-        jQuery("#sola_t_rb_theme_3").attr('checked', false);
-        jQuery("#sola_t_rb_theme_1").attr('checked', false);
-        jQuery("#sola_t_theme_4").addClass("layout_activate");
-        jQuery("#sola_t_theme_2").removeClass("layout_activate");
-        jQuery("#sola_t_theme_3").removeClass("layout_activate");
-        jQuery("#sola_t_theme_1").removeClass("layout_activate");
-        jQuery("#sola_t_theme_5").removeClass("layout_activate");
-    });
-
-    jQuery("#sola_t_theme_5").click(function() {
-        jQuery("#sola_t_rb_theme_5").attr('checked', true);
-        jQuery("#sola_t_rb_theme_2").attr('checked', false);
-        jQuery("#sola_t_rb_theme_4").attr('checked', false);
-        jQuery("#sola_t_rb_theme_3").attr('checked', false);
-        jQuery("#sola_t_rb_theme_1").attr('checked', false);
-        jQuery("#sola_t_theme_5").addClass("layout_activate");
-        jQuery("#sola_t_theme_4").removeClass("layout_activate");
-        jQuery("#sola_t_theme_2").removeClass("layout_activate");
-        jQuery("#sola_t_theme_3").removeClass("layout_activate");
-        jQuery("#sola_t_theme_1").removeClass("layout_activate");
-    });    
-    
-    
-
+ 
     jQuery("#sola_t_image_1").click(function() {
         jQuery("#sola_t_rb_image_1").attr('checked', true);
         jQuery("#sola_t_rb_image_2").attr('checked', false);

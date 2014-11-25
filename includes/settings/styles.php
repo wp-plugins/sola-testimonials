@@ -46,20 +46,32 @@
             if(function_exists('sola_t_register_pro')){
                 $bubble = 'sola-t-theme-3';
                 $card = 'sola-t-theme-4';
+                $bubble2 = 'sola-t-theme-5';
+                $type1 = 'sola-t-theme-6';
+                $type2 = 'sola-t-theme-7';
             } else {
                 $bubble = 'sola-t-theme-3-pro';
                 $card = 'sola-t-theme-4-pro';
+                $bubble2 = 'sola-t-theme-5-pro';
+                $type1 = 'sola-t-theme-6-pro';
+                $type2 = 'sola-t-theme-7-pro';
             }
+            
             ?>
-            <img src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/sola-t-theme-1.png'; ?>" title="<?php _e('Clean Theme', 'sola_t'); ?>" id="sola_t_theme_1" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-1') { echo 'class="layout_activate"'; } ?>/>       
-            <img src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/sola-t-theme-2.png'; ?>" title="<?php _e('Clean Theme', 'sola_t'); ?>" id="sola_t_theme_2" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-2') { echo 'class="layout_activate"'; } ?>/>       
-            <img src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/'.$bubble.'.png'; ?>" title="<?php _e('Bubble Theme', 'sola_t'); ?>" id="<?php if(function_exists('sola_t_register_pro')){ echo 'sola_t_theme_3'; } else { echo 'pro_only'; }?>" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-3') { echo 'class="layout_activate"'; } ?>/>       
-            <img src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/'.$card.'.png'; ?>" title="<?php _e('Card Theme', 'sola_t'); ?>" id="<?php if(function_exists('sola_t_register_pro')){ echo 'sola_t_theme_4'; } else { echo 'pro_only'; }?>" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-4') { echo 'class="layout_activate"'; } ?>/>       
+            <img class='sola_t_theme_select <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-1') { echo 'layout_activate'; } ?>' tid='1' src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/sola-t-theme-1.png'; ?>" title="<?php _e('Clean Theme', 'sola_t'); ?>" id="sola_t_theme_1" />
+            <img class='sola_t_theme_select <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-2') { echo 'layout_activate'; } ?>' tid='2' src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/sola-t-theme-2.png'; ?>" title="<?php _e('Clean Theme', 'sola_t'); ?>" id="sola_t_theme_2" />
+            <img class='sola_t_theme_select <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-3') { echo 'layout_activate'; } ?>' tid='3' src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/'.$bubble.'.png'; ?>" title="<?php _e('Bubble Theme', 'sola_t'); ?>" id="<?php if(function_exists('sola_t_register_pro')){ echo 'sola_t_theme_3'; } else { echo 'pro_only'; }?>" />
+            <img class='sola_t_theme_select <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-4') { echo 'layout_activate'; } ?>' tid='4' src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/'.$card.'.png'; ?>" title="<?php _e('Card Theme', 'sola_t'); ?>" id="<?php if(function_exists('sola_t_register_pro')){ echo 'sola_t_theme_4'; } else { echo 'pro_only'; }?>" />
+            <img class='sola_t_theme_select <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-5') { echo 'layout_activate'; } ?>' tid='5' src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/'.$bubble2.'.png'; ?>" title="<?php _e('Bubble Theme', 'sola_t'); ?>" id="<?php if(function_exists('sola_t_register_pro')){ echo 'sola_t_theme_5'; } else { echo 'pro_only'; }?>" />
+            <img class='sola_t_theme_select <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-6') { echo 'layout_activate'; } ?>' tid='6' src="<?php echo SOLA_T_PLUGIN_DIR.'/images/layouts/'.$type1.'.png'; ?>" title="<?php _e('Card Theme', 'sola_t'); ?>" id="<?php if(function_exists('sola_t_register_pro')){ echo 'sola_t_theme_6'; } else { echo 'pro_only'; }?>" />
             <input type="radio" name="sola_t_theme" value="theme-1" class="sola_t_hide_input" id="sola_t_rb_theme_1" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-1') { echo 'checked'; } ?>/>
             <input type="radio" name="sola_t_theme" value="theme-2" class="sola_t_hide_input" id="sola_t_rb_theme_2" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-2') { echo 'checked'; } ?>/>
             <input type="radio" name="sola_t_theme" value="theme-3" class="sola_t_hide_input" id="sola_t_rb_theme_3" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-3') { echo 'checked'; } ?>/>
             <input type="radio" name="sola_t_theme" value="theme-4" class="sola_t_hide_input" id="sola_t_rb_theme_4" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-4') { echo 'checked'; } ?>/>
-            <?php if(!function_exists('sola_t_register_pro')){ ?>
+            <input type="radio" name="sola_t_theme" value="theme-5" class="sola_t_hide_input" id="sola_t_rb_theme_5" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-5') { echo 'checked'; } ?>/>
+            <input type="radio" name="sola_t_theme" value="theme-6" class="sola_t_hide_input" id="sola_t_rb_theme_6" <?php if(isset($style_settings['chosen_theme']) && $style_settings['chosen_theme'] == 'theme-6') { echo 'checked'; } ?>/>
+            
+                <?php if(!function_exists('sola_t_register_pro')){ ?>
                 <div class="description">
                     &nbsp;  
                     <?php $purchase_link = "<a href=\"http://solaplugins.com/plugins/sola-testimonials/?utm_source=plugin&utm_medium=link&utm_campaign=sola_t_themes\" target=\"_BLANK\">".__('Unlock all themes', 'sola_t')."</a>"; ?>

@@ -9,12 +9,9 @@
     margin:0 auto;
     margin-bottom:20px;
 }
-.sola_t_image {
+.theme-1 .sola_t_image {
     text-align: center;
 }
-/*.sola_t_image img {
-    width: 100%;
-}*/
 
 .theme-1  .sola_t_image {
     float: left;
@@ -53,7 +50,7 @@
     margin:0 auto;
     margin-bottom:20px;
 }
-.sola_t_image {
+.theme-2 .sola_t_image {
     float: none;
     margin: 0 auto;
 }

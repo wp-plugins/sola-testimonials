@@ -3,13 +3,20 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.2
+ * Version: 1.3
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
 /*
+ * 1.3
+ * Code improvements
+ * Testimonial structure improvements
+ * Bug fix: Sola Testimonials welcome page kept showing up for some users
+ * New shortcode addition to show a random testimonial
+ * Pro: Two new testimonial themes added
+ * 
  * 1.2 2014-11-24
  * Fixed bug that caused Fatal error
  * 
@@ -54,7 +61,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.2";
+$sola_t_version = "1.3";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){
@@ -76,11 +83,35 @@ function sola_t_init(){
     }
 
     if (isset($_GET['post_type']) && $_GET['post_type'] == "testimonials") {
-        if (get_option('sola_t_first_time') == false) {
-            update_option('sola_t_first_time', true);
-            wp_redirect('edit.php?post_type=testimonials&page=sola_t_settings&action=welcome_page', 302);
-            exit();
+        
+        global $sola_t_version;
+        /* check if their using APC object cache, if yes, do nothing with the welcome page as it causes issues when caching the DB options */
+        if (class_exists("APC_Object_Cache")) {
+            /* do nothing here as this caches the "first time" option and the welcome page just loads over and over again. quite annoying really... */
+        }  else { 
+            if (isset($_GET['override']) && $_GET['override'] == "1") {
+                $sola_t_first_time = $sola_t_version;
+                update_option("sola_t_first_time",$sola_t_first_time);
+            } else {
+                $sola_t_first_time = get_option("sola_t_first_time");
+                if (!$sola_t_first_time) { 
+                    /* show welcome screen */
+                    $sola_t_first_time = $sola_t_version;
+                    update_option("sola_t_first_time",$sola_t_first_time);
+                    wp_redirect('edit.php?post_type=testimonials&page=sola_t_settings&action=welcome_page');
+                    exit();
+                }
+                
+                if ($sola_t_first_time != $sola_t_version) {
+                    // user has updated - will build update page
+                    update_option("sola_t_first_time",$sola_t_version);
+                    
+                }
+                
+            }
         }
+        
+       
     }
     
 } 

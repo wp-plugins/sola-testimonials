@@ -8,7 +8,7 @@
     <img src="<?php echo SOLA_T_PLUGIN_DIR; ?>/images/welcome-image.png" width="20%" style="width: 400px; border: 1px solid #e5e5e5; -moz-box-shadow: 0 0 5px rgba(0,0,0,.1); -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1); box-shadow: 0 0 5px rgba(0,0,0,.1); -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;"/>
 
     <h2 style="font-size: 25px;"><?php _e("How did you find us?", "sola_t"); ?></h2>
-    <form method="post" name="sola_find_us_form" action="" style="font-size: 16px;">
+    <form method="post" name="sola_find_us_form" action="edit.php?post_type=testimonials&page=sola_t_settings&override=1" style="font-size: 16px;">
         <div  style="text-align: left; width:275px;">
             <input type="radio" name="sola_find_us" id="wordpress" value='repository'>
             <label for="wordpress">
