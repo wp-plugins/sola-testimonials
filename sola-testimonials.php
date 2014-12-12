@@ -3,13 +3,15 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.3
+ * Version: 1.4
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
-/*
+/* 1.4 
+ * New feature: Media button added to testimonial author image
+ * 
  * 1.3
  * Code improvements
  * Testimonial structure improvements
@@ -61,7 +63,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.3";
+$sola_t_version = "1.4";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){
@@ -203,9 +205,11 @@ function sola_t_menu(){
 function sola_t_admin_scripts(){
     wp_enqueue_script('jquery');
     wp_enqueue_script('jquery-ui-core');
-    wp_enqueue_script( 'jquery-ui-tabs');      	
-    
+    wp_enqueue_script('jquery-ui-tabs');  
     wp_enqueue_script('jquery-ui-dialog');  
+    
+    wp_enqueue_script('thickbox');
+    wp_enqueue_script('media-upload');    
     
     wp_register_script('sola-t-general-js', SOLA_T_PLUGIN_DIR.'/js/sola_t.js', 'jquery');
     wp_enqueue_script('sola-t-general-js');
@@ -264,6 +268,8 @@ function sola_t_admin_scripts(){
 }
 
 function sola_t_admin_styles(){
+    wp_enqueue_style('thickbox');
+    
     wp_register_style('sola-t-jquery-ui-css', SOLA_T_PLUGIN_DIR.'/css/jquery-ui.css');
     wp_enqueue_style('sola-t-jquery-ui-css');
 
@@ -403,7 +409,8 @@ function sola_t_meta_box_contents(){
     <tr>
         <th><label for="sola_t_image_url"><?php _e('Image URL', 'sola_t'); ?></label></th>
         <td>
-            <input class="sola_input" type="text" name="sola_t_image_url" value="<?php if($sola_t_image_url = get_post_meta($post_id, 'sola_t_image_url')){ echo $sola_t_image_url[0]; } ?>" placeholder="<?php _e('Image URL', 'sola_t'); ?>"/>
+            <input class="sola_input" type="text" name="sola_t_image_url" id="sola_t_user_upload_image" value="<?php if($sola_t_image_url = get_post_meta($post_id, 'sola_t_image_url')){ echo $sola_t_image_url[0]; } ?>" placeholder="<?php _e('Image URL', 'sola_t'); ?>"/>
+            <input id="sola_t_user_upload_image_button" class="button" type="button" value="<?php _e('Upload Image', 'sola_t'); ?>" />            
             <div class="description">
                 <p><?php _e('Leave this field blank to use the gravatar image of the author', 'sola_t'); ?>
             </div>

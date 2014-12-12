@@ -199,7 +199,20 @@ jQuery(document).ready(function() {
         });
     });
     
-    
+    jQuery('#sola_t_user_upload_image_button').click(function() {
+
+        jQuery('#sola_t_user_upload_image').attr('name');
+        tb_show( '', 'media-upload.php?type=image&amp;TB_iframe=true' );
+        return false;
+    });
+
+    window.send_to_editor = function(html) {
+
+        sola_t_image_url = jQuery('img',html).attr('src');
+        jQuery('#sola_t_user_upload_image').val(sola_t_image_url);
+        tb_remove();
+    }
+
     
     
 });
