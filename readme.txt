@@ -146,7 +146,7 @@ Not applicable.
 
 == Changelog ==
 
-* = 1.4 2014-12-12 - Low Priority =
+= 1.4 2014-12-12 - Low Priority =
 * Media button added to testimonial author image
 
 = 1.3 - 2014-11-25 =
