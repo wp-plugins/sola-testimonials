@@ -52,11 +52,9 @@
 /* Layout 2 */
 
 .sola_t_layout_2_container{
-
     margin: 5px 3% 10px 1%;
-    width: 46%;
-    display: block;
-    float:left;
+    width: 45%;
+    display: inline-block;    
 }
 .sola_t_layout_2_container .sola_t_container{
     width: 100%;
@@ -101,13 +99,11 @@
 .sola_t_layout_3_container{
     margin: 5px 1% 10px 1%;
     width: 31%;
-    display: block;
-    float:left;
+    display: inline-block;
 }
 .sola_t_layout_3_container .sola_t_container{
     width: 100%;
     display: block;
-
 }
 .sola_t_layout_3_container .sola_t_image{
 
@@ -149,8 +145,7 @@
     /*padding: 10px;*/
     margin: 5px 1% 10px 1%;
     width: 23%;
-    display: block;
-    float:left;
+    display: inline-block;
 }
 .sola_t_layout_4_container .sola_t_container{
     width: 100%;
@@ -231,4 +226,8 @@
 
 .sola-t-round-image{
     border-radius: 100px;
+}
+
+.sola_t_same_height{
+    vertical-align: top;
 }

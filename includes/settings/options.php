@@ -13,6 +13,12 @@
             <input type="checkbox" name="sola_t_show_excerpt" id="sola_t_show_excerpt" value="1" <?php if(isset($sola_t_options['show_excerpt']) && $sola_t_options['show_excerpt'] == 1){ echo 'checked'; } ?> />
         </td>
     </tr>
+        <tr>
+        <th><label for=""><?php _e('Allow HTML to be rendered in the testimonial', 'sola_t'); ?></label></th>
+        <td>        
+            <input type="checkbox" name="sola_t_allow_html" id="sola_t_allow_html" value="1" <?php if(isset($sola_t_options['sola_t_allow_html']) && $sola_t_options['sola_t_allow_html'] == 1){ echo 'checked'; } ?>/>
+        </td>
+    </tr>   
     <tr>
         <th><label for=""><?php _e('Excerpt Length', 'sola_t'); ?></label></th>
         <td>        

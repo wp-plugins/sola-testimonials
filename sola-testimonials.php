@@ -3,13 +3,21 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.4
+ * Version: 1.5
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
-/* 1.4 
+/* 1.5 2015-02-03 Low Priority
+ * New Feature: You can choose to render HTML in a testimonial
+ * New Feature: Specify in the shortcode the theme and layout you would like to use for your testimonials
+ * Bug Fix: Layout issues fixed when showing more than 4 testimonials
+ * Bug Fix: Testimonial image style wouldnt change in slider
+ * Bug Fix: Add Media has been removed and a Featured Image metabox for testimonial images
+ * Enhancement (Pro): Less testimonial items will display per slide on mobile devices
+ * 
+ * 1.4 
  * New feature: Media button added to testimonial author image
  * 
  * 1.3
@@ -37,6 +45,7 @@ add_action('init', 'sola_t_post_type');
 
 add_action('add_meta_boxes', 'sola_t_meta_box');
 add_action('add_meta_boxes', 'sola_t_side_meta_box');
+add_action('do_meta_boxes', 'sola_t_featured_user_image');
 add_action('admin_menu', 'sola_t_menu');
 
 add_action('save_post', 'sola_t_save_testimonial_meta');
@@ -63,7 +72,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.4";
+$sola_t_version = "1.5";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){
@@ -146,7 +155,8 @@ function sola_t_activate(){
         'read_more_link' => __('Read More', 'sola_t'),
         'show_user_name' => 1,
         'show_user_web' => 1,
-        'show_image' => 1
+        'show_image' => 1,
+        'sola_t_allow_html' => 0
     );
     
     add_option('sola_t_options_settings', $sola_t_options_settings);
@@ -208,8 +218,8 @@ function sola_t_admin_scripts(){
     wp_enqueue_script('jquery-ui-tabs');  
     wp_enqueue_script('jquery-ui-dialog');  
     
-    wp_enqueue_script('thickbox');
-    wp_enqueue_script('media-upload');    
+//    wp_enqueue_script('thickbox');
+//    wp_enqueue_script('media-upload');    
     
     wp_register_script('sola-t-general-js', SOLA_T_PLUGIN_DIR.'/js/sola_t.js', 'jquery');
     wp_enqueue_script('sola-t-general-js');
@@ -264,7 +274,7 @@ function sola_t_admin_scripts(){
             /* It is registered and enqueued. Dont do anything. */
         }
         /* Register and enqueue it */
-    }        
+    }                    
 }
 
 function sola_t_admin_styles(){
@@ -301,6 +311,19 @@ function sola_t_front_end_scripts(){
     
     wp_register_script('imgLiquid', SOLA_T_PLUGIN_DIR.'/js/imgLiquid-min.js', array('jquery'));
     wp_enqueue_script('imgLiquid');
+    
+    if(!wp_script_is('registered', 'jquery-matchHeight')){
+        /* Enqueue the script then */
+        wp_register_script('jquery-matchHeight', SOLA_T_PLUGIN_DIR.'/js/jquery.matchHeight-min.js');
+        wp_enqueue_script('jquery-matchHeight');
+    } else {
+        if(!wp_script_is('queue', 'jquery-matchHeight')){
+            wp_enqueue_script('jquery-matchHeight');
+        } else {
+            /* It is registered and enqueued. Dont do anything. */
+        }
+        /* Register and enqueue it */
+    }    
     
 }
 
@@ -346,7 +369,7 @@ function sola_t_post_type() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
-        'supports'           => array( 'title', 'editor')
+        'supports'           => array( 'title', 'editor', 'thumbnail')
     );
 
     register_post_type( 'testimonials', $args ); 
@@ -410,9 +433,9 @@ function sola_t_meta_box_contents(){
         <th><label for="sola_t_image_url"><?php _e('Image URL', 'sola_t'); ?></label></th>
         <td>
             <input class="sola_input" type="text" name="sola_t_image_url" id="sola_t_user_upload_image" value="<?php if($sola_t_image_url = get_post_meta($post_id, 'sola_t_image_url')){ echo $sola_t_image_url[0]; } ?>" placeholder="<?php _e('Image URL', 'sola_t'); ?>"/>
-            <input id="sola_t_user_upload_image_button" class="button" type="button" value="<?php _e('Upload Image', 'sola_t'); ?>" />            
+            <!--<input id="sola_t_user_upload_image_button" class="button" type="button" value="<?php // _e('Upload Image', 'sola_t'); ?>" />-->            
             <div class="description">
-                <p><?php _e('Leave this field blank to use the gravatar image of the author', 'sola_t'); ?>
+                <p><?php _e('Leave this field blank to use the gravatar image of the author. The User Image (Right) will override this option.', 'sola_t'); ?>
             </div>
         </td>
     </tr>
@@ -613,6 +636,8 @@ if (isset($_POST['sola_t_save_options'])){
     if(isset($sola_t_show_user_name)){ $sola_t_saved_forms['show_user_name'] = $sola_t_show_user_name; } else { $sola_t_saved_forms['show_user_name'] = ''; }
     if(isset($sola_t_show_web)){ $sola_t_saved_forms['show_user_web'] = $sola_t_show_web; } else { $sola_t_saved_forms['show_user_web'] = ''; }
     if(isset($sola_t_show_image)){ $sola_t_saved_forms['show_image'] = $sola_t_show_image; } else { $sola_t_saved_forms['show_image'] = ''; }
+    if(isset($sola_t_allow_html)){ $sola_t_saved_forms['sola_t_allow_html'] = $sola_t_allow_html; } else { $sola_t_saved_forms['sola_t_allow_html'] = ''; }
+    
     
     $update_form = update_option('sola_t_options_settings', $sola_t_saved_forms);
 
@@ -669,4 +694,9 @@ function sola_t_loop_control( $query ) {
             ));
         }    
     }
+}
+
+function sola_t_featured_user_image() {
+    remove_meta_box('postimagediv', 'testimonials', 'side');
+    add_meta_box('postimagediv', __('User Image', 'sola_t'), 'post_thumbnail_meta_box', 'testimonials', 'side');
 }

@@ -3,7 +3,7 @@ Contributors: SolaPlugins, Jarryd Long, NickDuncan
 Donate link: http://solaplugins.com
 Tags: testimonial, testimonials, testimonial plugin, testimonial widget, testimonial manager
 Requires at least: 3.6
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2
 
@@ -63,17 +63,47 @@ Show all Testimonials of a certain category
 Show a random testimonial from a certain category
 `[sola_t_all_testimonials cat_id=6 random=yes]`
 
+Show all Testimonials with a specific theme
+`[sola_t_all_testimonials theme=theme-1]`
+
+`[sola_t_all_testimonials theme=theme-2]`
+
+`[sola_t_all_testimonials theme=theme-3]`
+
+`[sola_t_all_testimonials theme=theme-4]`
+
+`[sola_t_all_testimonials theme=theme-5]`
+
+
+Show all Testimonials with a specific layout
+`[sola_t_all_testimonials layout=layout-1]`
+
+`[sola_t_all_testimonials layout=layout-2]`
+
+`[sola_t_all_testimonials layout=layout-3]`
+
+`[sola_t_all_testimonials layout=layout-4]`
+
 Show a random testimonial
 `[sola_t_all_testimonials random=yes]`
 
 Show a single testimonial
 `[sola_testimonial id=1]`
 
+Show a single testimonial with a specific theme
+`[sola_testimonial theme=theme-1 id=1]`
+
+Show a single testimonial with a specific layout
+`[sola_testimonial layout=layout-1]`
+
 Show all Testimonials in a responsive slider (Pro)
 `[sola_testimonial_slider]`
 
 Show all Testimonials of a certain category in a responsive slider (Pro)
 `[sola_testimonial_slider cat_id=1]`
+
+Show all Testimonials in a responsive slider (Pro)
+`[sola_testimonial_slider theme=theme-1]`
 
 Testimonial submit form (Pro)
 `[sola_testimonial_submit_form]`
@@ -146,7 +176,15 @@ Not applicable.
 
 == Changelog ==
 
-= 1.4 2014-12-12 - Low Priority =
+= 1.5 - 2015-02-03 - Low Priority = 
+* New Feature: You can choose to render HTML in a testimonial
+* New Feature: Specify in the shortcode the theme and layout you would like to use for your testimonials
+* Bug Fix: Layout issues fixed when showing more than 4 testimonials
+* Bug Fix: Testimonial image style wouldnt change in slider
+* Bug Fix: Add Media has been removed and a Featured Image metabox for testimonial images
+* Enhancement (Pro): Less testimonial items will display per slide on mobile devices
+
+= 1.4 - 2014-12-12 - Low Priority =
 * Media button added to testimonial author image
 
 = 1.3 - 2014-11-25 =
