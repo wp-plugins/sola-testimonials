@@ -148,6 +148,29 @@ if(function_exists('sola_t_register_pro')){
         </td>
     </tr>
     <tr>
+        <th><label for=""><?php _e('Enable Ratings?', 'sola_t'); ?></label></th>
+        <td>
+            <input type="checkbox" disabled  />
+        </td>
+    </tr>
+    <tr>
+        <th><label for=""><?php _e('Rating Field Label', 'sola_t'); ?></label></th>
+        <td>
+            <input type="text" disabled value="<?php _e('Rating', 'sola_t'); ?>"/>
+        </td>
+    </tr>
+    <tr>
+        <th><label for=""><?php _e('Rating Field Description', 'sola_t'); ?></label></th>
+        <td>
+            <input type="text" disabled value="<?php _e('Rate your experience with us', 'sola_t'); ?>"/>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <hr/>
+        </td>
+    </tr>
+    <tr>
         <th><label for=""><?php _e('Enable CAPTCHA?', 'sola_t'); ?></label></th>
         <td>
             <input type="checkbox" disabled  />

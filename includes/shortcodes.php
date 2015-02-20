@@ -11,14 +11,14 @@ function sola_t_all_testimonials($atts){
 
     $options = get_option('sola_t_options_settings');
     
-    $show_title = $options['show_title'];
-    $show_body = $options['show_excerpt'];
-    $show_name = $options['show_user_name'];
-    $show_website = $options['show_user_web'];
-    $show_image = $options['show_image'];
-    $image_size = $options['image_size'];
-    
-    $excerpt_length = intval($options['excerpt_length']);
+    isset($options['show_title']) ? $show_title = $options['show_title'] : $show_title = "";
+    isset($options['show_excerpt']) ? $show_body = $options['show_excerpt'] : $show_body = "";
+    isset($options['show_user_name']) ? $show_name = $options['show_user_name'] : $show_name = "";
+    isset($options['show_user_web']) ? $show_website = $options['show_user_web'] : $show_website = "";
+    isset($options['show_image']) ? $show_image = $options['show_image'] : $show_image = "";
+    isset($options['image_size']) ? $image_size = $options['image_size'] : $image_size = "";
+    isset($options['show_rating']) ? $show_rating = $options['show_rating'] : $show_rating = "";
+    isset($options['excerpt_length']) ? $excerpt_length = intval($options['excerpt_length']) : $excerpt_length = "";
     
     if(isset($options['sola_t_allow_html']) && $options['sola_t_allow_html'] == 1) { $sola_t_allow_html = 1; } else { $sola_t_allow_html = 0; }
     
@@ -48,14 +48,15 @@ function sola_t_all_testimonials($atts){
         
         if(isset($show_body) && $show_body == 1){
             
-            $sola_t_body_contents = explode(' ', get_the_content(), $excerpt_length + 1);
+//            $sola_t_body_contents = explode(' ', get_the_content(), $excerpt_length + 1);
             
-            array_pop($sola_t_body_contents);
-            $sola_t_edited_contents = implode(' ', $sola_t_body_contents);
+//            array_pop($sola_t_body_contents);
+//            $sola_t_edited_contents = implode(' ', $sola_t_body_contents);
+            $sola_t_edited_contents = get_the_excerpt();
 
-            if(!$sola_t_allow_html){
-                $sola_t_edited_contents = strip_tags($sola_t_edited_contents);
-            }
+//            if(!$sola_t_allow_html){
+//                $sola_t_edited_contents = strip_tags($sola_t_edited_contents);
+//            }
 
             $the_body = "
                 <div class=\"sola_t_body\">&ldquo;".$sola_t_edited_contents."&rdquo;</div>";
@@ -101,6 +102,16 @@ function sola_t_all_testimonials($atts){
             }
         } else {
             $the_website = "<span class=\"sola_t_website\">&nbsp;</span>";
+        }
+
+        if(isset($show_rating) && $show_rating == 1){
+            if($rating = get_post_meta($post->ID, 'sola_t_rating', true)){
+                $the_rating = '<div class="sola_t_display_rating" score="'.$rating.'"></div>';
+            } else {
+                $the_rating = "";
+            }
+        } else {
+            $the_rating = "";
         }
             
         $layouts = get_option('sola_t_style_settings');
@@ -193,14 +204,15 @@ function sola_t_all_testimonials($atts){
                     <div class=\"sola_t_container\">
                             <div class=\"sola_t_container_body\">
                                 $the_title
+                                $the_rating
                                 $the_body
                             </div>
-                            
                             <div class='meta-container'>
                                 $the_image
                                     <div class=\"sola_t_meta_data\">
                                         $the_name
                                         $the_website
+                                        
                                     </div>
                             </div>
                             
@@ -212,11 +224,13 @@ function sola_t_all_testimonials($atts){
                             $the_image
                             <div class=\"sola_t_container_body\">
                                 $the_title
+                                $the_rating
                                 $the_body
                             </div>
                             <div class=\"sola_t_meta_data\">
                                 $the_name
                                 $the_website
+                                
                             </div>
                         </div>";
                 break;

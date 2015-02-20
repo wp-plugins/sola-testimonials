@@ -57,6 +57,26 @@
             <input type="checkbox" name="sola_t_show_image" id="sola_t_show_image" value="1" <?php if(isset($sola_t_options['show_image']) && $sola_t_options['show_image'] == 1){ echo 'checked'; } ?>/>
         </td>
     </tr>    
+    <?php if(function_exists('sola_t_pro_activate')){ ?>
+        <tr>
+            <th><label for=""><?php _e('Show Star Rating', 'sola_t'); ?></label></th>
+            <td>        
+                <input type="checkbox" name="sola_t_show_rating" id="sola_t_show_rating" value="1" <?php if(isset($sola_t_options['show_rating']) && $sola_t_options['show_rating'] == 1){ echo 'checked'; } ?>/>
+            </td>
+        </tr>
+    <?php 
+    
+        } else { 
+            $pro_link = "<a href=\"http://solaplugins.com/plugins/sola-testimonials/?utm_source=plugin&utm_medium=link&utm_campaign=ratings_options_page\" target=\"_BLANK\">".__('Premium Version', 'sola_t')."</a>";
+    ?>
+        <tr>
+            <th><label for=""><?php _e('Show Rating', 'sola_t'); ?></label></th>
+            <td>        
+                <input type="checkbox" disabled="disabled" readonly="readonly"/>
+                <p class="description"><?php _e("Ratings are only available in the $pro_link", "sola_t"); ?></p>
+            </td>
+        </tr>
+    <?php } ?>
     <tr>
         <td colspan="2">
             <hr/>

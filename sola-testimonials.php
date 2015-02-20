@@ -3,13 +3,18 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.5
+ * Version: 1.6
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
-/* 1.5 2015-02-03 Low Priority
+/* 1.6 2015-02-20 - Low Priority
+ * Bug Fix: Read More Link now shows at the end of a testimonial excerpt
+ * New Feature: You can now add star ratings to your testimonials (Pro)
+ * New Feature: You can now choose if you want guests to submit a testimonial (Pro)
+ * 
+ * 1.5 2015-02-03 Low Priority
  * New Feature: You can choose to render HTML in a testimonial
  * New Feature: Specify in the shortcode the theme and layout you would like to use for your testimonials
  * Bug Fix: Layout issues fixed when showing more than 4 testimonials
@@ -58,12 +63,15 @@ add_action('wp_enqueue_scripts', 'sola_t_front_end_scripts', 99);
 add_action('admin_head','sola_t_admin_head');
 add_action('wp_head','sola_t_user_head');
 
+remove_filter('get_the_excerpt', 'wp_trim_excerpt');
+add_filter('get_the_excerpt', 'sola_t_custom_excerpt');
+
 require_once 'includes/shortcodes.php';
 
 add_filter('pre_get_posts', 'sola_t_loop_control');
 add_filter('manage_testimonials_posts_columns' , 'sola_t_columns');
 add_filter('excerpt_more', 'sola_t_read_more',999);
-add_filter('excerpt_length', 'sola_t_excerpt_length');
+//add_filter('excerpt_length', 'sola_t_excerpt_length');
 
 register_activation_hook( __FILE__, 'sola_t_activate');
 register_deactivation_hook(__FILE__, 'sola_t_deactivate');
@@ -72,7 +80,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.5";
+$sola_t_version = "1.6";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){
@@ -375,11 +383,11 @@ function sola_t_post_type() {
     register_post_type( 'testimonials', $args ); 
 }
 
-function sola_t_excerpt_length($length) {
-    $options = get_option('sola_t_options_settings');
-    $length = intval($options['excerpt_length']);
-    return $length;
-}
+//function sola_t_excerpt_length($length) {
+//    $options = get_option('sola_t_options_settings');
+//    $length = intval($options['excerpt_length']);
+//    return $length;
+//}
 function sola_t_read_more($more) {
     $options = get_option('sola_t_options_settings');
     $link = $options['read_more_link'];
@@ -433,7 +441,6 @@ function sola_t_meta_box_contents(){
         <th><label for="sola_t_image_url"><?php _e('Image URL', 'sola_t'); ?></label></th>
         <td>
             <input class="sola_input" type="text" name="sola_t_image_url" id="sola_t_user_upload_image" value="<?php if($sola_t_image_url = get_post_meta($post_id, 'sola_t_image_url')){ echo $sola_t_image_url[0]; } ?>" placeholder="<?php _e('Image URL', 'sola_t'); ?>"/>
-            <!--<input id="sola_t_user_upload_image_button" class="button" type="button" value="<?php // _e('Upload Image', 'sola_t'); ?>" />-->            
             <div class="description">
                 <p><?php _e('Leave this field blank to use the gravatar image of the author. The User Image (Right) will override this option.', 'sola_t'); ?>
             </div>
@@ -451,6 +458,55 @@ function sola_t_meta_box_contents(){
             <input class="sola_input" type="text" name="sola_t_website_address" value="<?php if($sola_t_website_address = get_post_meta($post_id, 'sola_t_website_address')){ echo $sola_t_website_address[0]; } else { echo 'http://'; } ?>" placeholder="<?php _e('User Web Address', 'sola_t'); ?>"/>
         </td>
     </tr>
+    <?php if(function_exists('sola_t_pro_activate')){ ?>
+        <?php
+        global $sola_t_pro_version;
+        if($sola_t_pro_version <= "1.2"){
+        ?>
+         <tr>
+            <th><label for="sola_t_rating"><?php _e('Rating', 'sola_t'); ?></label></th>
+            <td>
+                <p><?php _e('Please update to the latest version of Sola Testimonials Pro to take advantage of star ratings', 'sola_t'); ?>
+            </td>
+        </tr>
+        <?php
+        } else {
+        ?>
+        <tr>
+            <th><label for="sola_t_rating"><?php _e('Rating', 'sola_t'); ?></label></th>
+            <td>
+                
+                <?php 
+                $sola_t_rating_value = get_post_meta($post_id, 'sola_t_rating', true);
+                if($sola_t_rating_value){
+                    $sola_t_rating_value = intval($sola_t_rating_value);
+                } else {
+                    $sola_t_rating_value = 0;
+                }
+                ?>
+                <script>
+                    jQuery(document).ready(function(){
+                        jQuery('#sola_t_rating_container').raty({
+                            score: <?php echo $sola_t_rating_value; ?>,
+                            click: function(score, evt) {
+                                jQuery("#sola_t_rating").val(score);
+                            }
+                        });
+                    });
+                </script>                
+                <div id="sola_t_rating_container"></div>                
+                <input class="sola_input" type="hidden" name="sola_t_rating" id="sola_t_rating" value="<?php echo $sola_t_rating_value; ?>" />
+            </td>
+        </tr>
+    <?php } } else { ?>
+        <tr>
+            <th><label for="sola_t_rating"><?php _e('Rating', 'sola_t'); ?></label></th>
+            <td>
+                <?php $pro_link = "<a href=\"http://solaplugins.com/plugins/sola-testimonials/?utm_source=plugin&utm_medium=link&utm_campaign=sola_t_add_rating\" target=\"_BLANK\">".__('Premium Version', 'sola_t')."</a>"; ?>
+                <p><?php _e("Star Ratings are only available in the $pro_link", 'sola_t'); ?>
+            </td>
+        </tr>
+    <?php } ?>
     <tr>
         <th><label><?php _e('Shortcode', 'sola_t'); ?></label></th>
         <td>
@@ -493,6 +549,10 @@ function sola_t_save_testimonial_meta($post_id) {
     
     if(isset($_REQUEST['sola_t_user_email'])){
         update_post_meta( $post_id, 'sola_t_user_email', sanitize_text_field( $_REQUEST['sola_t_user_email'] ) );
+    }
+    
+    if(isset($_REQUEST['sola_t_rating'])){
+        update_post_meta( $post_id, 'sola_t_rating', sanitize_text_field( $_REQUEST['sola_t_rating'] ) );
     }
     
     update_post_meta ($post_id, '_sola_t_status', 1);
@@ -541,6 +601,7 @@ function sola_t_columns($columns) {
         'sola_t_website_name' => __('Website Name', 'sola_t'),
         'sola_t_website_address' => __('Website Address', 'sola_t'),
         'sola_t_status' => __('Status', 'sola_t'),
+        'sola_t_rating' => __('Rating', 'sola_t'),
         'sola_t_single_shortcode' => __('Shortcode', 'sola_t')
     );
     return array_merge($columns, $new_columns);
@@ -568,7 +629,10 @@ function sola_t_populate_columns($column) {
             $status = __('Pending Approval', 'sola_t');
         }
         echo $status;
-    } else if ( 'sola_t_single_shortcode' == $column ) {
+    } else if ('sola_t_rating' == $column){
+        $sola_t_status = get_post_meta( get_the_ID(), 'sola_t_rating', true );
+        echo $sola_t_status;
+    }else if ( 'sola_t_single_shortcode' == $column ) {
         echo '[sola_testimonial id='.$post->ID.']';
     }
     
@@ -624,35 +688,41 @@ function sola_t_user_head(){
     
 if (isset($_POST['sola_t_save_options'])){
     
-    extract($_POST);
-    
-    $sola_t_saved_forms = Array();
-    
-    if(isset($sola_t_show_title)){ $sola_t_saved_forms['show_title'] = $sola_t_show_title; } else { $sola_t_saved_forms['show_title'] = ''; }
-    if(isset($sola_t_show_excerpt)){ $sola_t_saved_forms['show_excerpt'] = $sola_t_show_excerpt; } else { $sola_t_saved_forms['show_excerpt'] = ''; }
-    if(isset($sola_t_image_size)){ $sola_t_saved_forms['image_size'] = $sola_t_image_size; } else { $sola_t_saved_forms['image_size'] = '120'; }
-    if(isset($sola_t_except_length) && $sola_t_except_length != ""){ $sola_t_saved_forms['excerpt_length'] = $sola_t_except_length; } else { $sola_t_saved_forms['excerpt_length'] = 20; }
-    if(isset($sola_t_read_more_link) && $sola_t_read_more_link != ""){ $sola_t_saved_forms['read_more_link'] = $sola_t_read_more_link; } else { $sola_t_saved_forms['read_more_link'] = __('Read More', 'sola_t'); }
-    if(isset($sola_t_show_user_name)){ $sola_t_saved_forms['show_user_name'] = $sola_t_show_user_name; } else { $sola_t_saved_forms['show_user_name'] = ''; }
-    if(isset($sola_t_show_web)){ $sola_t_saved_forms['show_user_web'] = $sola_t_show_web; } else { $sola_t_saved_forms['show_user_web'] = ''; }
-    if(isset($sola_t_show_image)){ $sola_t_saved_forms['show_image'] = $sola_t_show_image; } else { $sola_t_saved_forms['show_image'] = ''; }
-    if(isset($sola_t_allow_html)){ $sola_t_saved_forms['sola_t_allow_html'] = $sola_t_allow_html; } else { $sola_t_saved_forms['sola_t_allow_html'] = ''; }
-    
-    
-    $update_form = update_option('sola_t_options_settings', $sola_t_saved_forms);
-
-    if($update_form){
-        echo "
-            <div class=\"updated\">
-                <p>".__('Update Successful', 'sola_t')."</p>
-            </div>
-        ";
+    if(function_exists('sola_t_pro_activate')){
+        if(function_exists('sola_t_pro_save_options')){
+            sola_t_pro_save_options();
+        }
     } else {
-        echo "
-            <div class=\"error\">
-                <p>".__('No changes were made', 'sola_t')."</p>
-            </div>
-        ";
+    
+        extract($_POST);
+
+        $sola_t_saved_forms = Array();
+
+        if(isset($sola_t_show_title)){ $sola_t_saved_forms['show_title'] = $sola_t_show_title; } else { $sola_t_saved_forms['show_title'] = ''; }
+        if(isset($sola_t_show_excerpt)){ $sola_t_saved_forms['show_excerpt'] = $sola_t_show_excerpt; } else { $sola_t_saved_forms['show_excerpt'] = ''; }
+        if(isset($sola_t_image_size)){ $sola_t_saved_forms['image_size'] = $sola_t_image_size; } else { $sola_t_saved_forms['image_size'] = '120'; }
+        if(isset($sola_t_except_length) && $sola_t_except_length != ""){ $sola_t_saved_forms['excerpt_length'] = $sola_t_except_length; } else { $sola_t_saved_forms['excerpt_length'] = 20; }
+        if(isset($sola_t_read_more_link) && $sola_t_read_more_link != ""){ $sola_t_saved_forms['read_more_link'] = $sola_t_read_more_link; } else { $sola_t_saved_forms['read_more_link'] = __('Read More', 'sola_t'); }
+        if(isset($sola_t_show_user_name)){ $sola_t_saved_forms['show_user_name'] = $sola_t_show_user_name; } else { $sola_t_saved_forms['show_user_name'] = ''; }
+        if(isset($sola_t_show_web)){ $sola_t_saved_forms['show_user_web'] = $sola_t_show_web; } else { $sola_t_saved_forms['show_user_web'] = ''; }
+        if(isset($sola_t_show_image)){ $sola_t_saved_forms['show_image'] = $sola_t_show_image; } else { $sola_t_saved_forms['show_image'] = ''; }
+        if(isset($sola_t_allow_html)){ $sola_t_saved_forms['sola_t_allow_html'] = $sola_t_allow_html; } else { $sola_t_saved_forms['sola_t_allow_html'] = ''; }        
+
+        $update_form = update_option('sola_t_options_settings', $sola_t_saved_forms);
+
+        if($update_form){
+            echo "
+                <div class=\"updated\">
+                    <p>".__('Update Successful', 'sola_t')."</p>
+                </div>
+            ";
+        } else {
+            echo "
+                <div class=\"error\">
+                    <p>".__('No changes were made', 'sola_t')."</p>
+                </div>
+            ";
+        }
     }
 } else if(isset($_POST['sola_t_save_style_settings'])){
         
@@ -699,4 +769,43 @@ function sola_t_loop_control( $query ) {
 function sola_t_featured_user_image() {
     remove_meta_box('postimagediv', 'testimonials', 'side');
     add_meta_box('postimagediv', __('User Image', 'sola_t'), 'post_thumbnail_meta_box', 'testimonials', 'side');
+}
+
+function sola_t_custom_excerpt($text) {
+    $options = get_option('sola_t_options_settings');
+        
+    if(isset($options['excerpt_length'])) { $length = intval($options['excerpt_length']); } else { $length = 120; }
+    
+    if(isset($options['sola_t_allow_html']) && $options['sola_t_allow_html'] == 1) { $sola_t_allow_html = 1; } else { $sola_t_allow_html = 0; }
+    
+    $raw_excerpt = $text;
+    
+    if ( '' == $text ) {
+        $text = get_the_content('');
+ 
+        $text = strip_shortcodes( $text );
+
+        $text = apply_filters('the_content', $text);
+        
+        $text = str_replace(']]>', ']]>', $text);
+        
+        if(!$sola_t_allow_html){
+            $text = strip_tags($text);
+        }
+        
+        $excerpt_length = apply_filters('excerpt_length', $length);
+ 
+        $excerpt_more = apply_filters('excerpt_more', ' ' . '[...]');
+        
+        $words = preg_split('/(<a.*?a>)|\n|\r|\t|\s/', $text, $excerpt_length + 1, PREG_SPLIT_NO_EMPTY|PREG_SPLIT_DELIM_CAPTURE );
+        
+        if ( count($words) > $excerpt_length ) {
+                array_pop($words);
+                $text = implode(' ', $words);
+                $text = $text . $excerpt_more;
+        } else {
+                $text = implode(' ', $words);
+        }
+    }
+    return apply_filters('new_wp_trim_excerpt', $text, $raw_excerpt);
 }

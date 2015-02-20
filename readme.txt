@@ -158,7 +158,6 @@ Order your copy of [Sola Testimonials Premium](http://solaplugins.com/plugins/so
 = How do I create a testimonial widget? =
 Showing your testimonials within a widget is easy. Simply copy and paste the shortcode of the testimonial into a text widget and press "Save". Your testimonial widget should appear on your website. Keep in mind that you should rather select an individual testimonial shortcode for a widget instead of the shortcode that dispays all the testimonials.
 
-
 == Screenshots ==
 
 1. Settings page of Sola Testimonials. Select your image style, layout, theme and much more.
@@ -175,6 +174,11 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.6 2015-02-20 - Low Priority =
+* Bug Fix: Read More Link now shows at the end of a testimonial excerpt
+* New Feature: You can now add star ratings to your testimonials (Pro)
+* New Feature: You can now choose if you want guests to submit a testimonial (Pro)
 
 = 1.5 - 2015-02-03 - Low Priority = 
 * New Feature: You can choose to render HTML in a testimonial
