@@ -3,13 +3,17 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.6
+ * Version: 1.7
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
-/* 1.6 2015-02-20 - Low Priority
+/* 1.7 2015-03-24 - Low Priority
+ * New Feature: You can now choose to display the excerpt or the full body of a testimonial
+ * New Feature: You can now change the pagination speed of the slider (Pro)
+ * 
+ * 1.6 2015-02-20 - Low Priority
  * Bug Fix: Read More Link now shows at the end of a testimonial excerpt
  * New Feature: You can now add star ratings to your testimonials (Pro)
  * New Feature: You can now choose if you want guests to submit a testimonial (Pro)
@@ -80,7 +84,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.6";
+$sola_t_version = "1.7";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){
@@ -707,7 +711,8 @@ if (isset($_POST['sola_t_save_options'])){
         if(isset($sola_t_show_web)){ $sola_t_saved_forms['show_user_web'] = $sola_t_show_web; } else { $sola_t_saved_forms['show_user_web'] = ''; }
         if(isset($sola_t_show_image)){ $sola_t_saved_forms['show_image'] = $sola_t_show_image; } else { $sola_t_saved_forms['show_image'] = ''; }
         if(isset($sola_t_allow_html)){ $sola_t_saved_forms['sola_t_allow_html'] = $sola_t_allow_html; } else { $sola_t_saved_forms['sola_t_allow_html'] = ''; }        
-
+        if(isset($sola_t_content_type)){ $sola_t_saved_forms['sola_t_content_type'] = $sola_t_content_type; } else { $sola_t_saved_forms['sola_t_content_type'] = 0; }
+        
         $update_form = update_option('sola_t_options_settings', $sola_t_saved_forms);
 
         if($update_form){
@@ -808,4 +813,8 @@ function sola_t_custom_excerpt($text) {
         }
     }
     return apply_filters('new_wp_trim_excerpt', $text, $raw_excerpt);
+}
+
+function sola_t_is_secure() {
+    return (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443;
 }

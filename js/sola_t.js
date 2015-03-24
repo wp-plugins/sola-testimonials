@@ -149,7 +149,6 @@ jQuery(document).ready(function() {
     
     jQuery(".sola_t_theme_select").click(function() {
         var orig_tid = jQuery(this).attr('tid');
-        console.log(orig_tid);
         jQuery( ".sola_t_theme_select" ).each(function() {
             var tid = jQuery(this).attr('tid');
             jQuery("#sola_t_rb_theme_"+tid).attr('checked', false);
@@ -199,5 +198,20 @@ jQuery(document).ready(function() {
         });
     });
     
+    if(jQuery("#sola_t_content_type_excerpt").is(':checked')){
+        jQuery(".excerpt_length_row").show();
+    } else {
+        jQuery(".excerpt_length_row").hide();
+    }
+    
+    jQuery("#sola_t_content_type_content").click(function(){
+        jQuery(".excerpt_length_row").hide();
+        jQuery(".excerpt_length_row").css('display', 'none');
+    });
+    
+    jQuery("#sola_t_content_type_excerpt").click(function(){
+        jQuery(".excerpt_length_row").show();
+        jQuery(".excerpt_length_row").css('display', 'table-row');
+    });
     
 });

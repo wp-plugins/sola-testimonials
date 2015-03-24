@@ -13,13 +13,20 @@
             <input type="checkbox" name="sola_t_show_excerpt" id="sola_t_show_excerpt" value="1" <?php if(isset($sola_t_options['show_excerpt']) && $sola_t_options['show_excerpt'] == 1){ echo 'checked'; } ?> />
         </td>
     </tr>
-        <tr>
+    <tr>
         <th><label for=""><?php _e('Allow HTML to be rendered in the testimonial', 'sola_t'); ?></label></th>
         <td>        
             <input type="checkbox" name="sola_t_allow_html" id="sola_t_allow_html" value="1" <?php if(isset($sola_t_options['sola_t_allow_html']) && $sola_t_options['sola_t_allow_html'] == 1){ echo 'checked'; } ?>/>
         </td>
-    </tr>   
+    </tr>
     <tr>
+        <th><label for=""><?php _e('Testimonial content type', 'sola_t'); ?></label></th>
+        <td>        
+            <input type="radio" name="sola_t_content_type" id="sola_t_content_type_excerpt" value="0" <?php if((isset($sola_t_options['sola_t_content_type']) && $sola_t_options['sola_t_content_type']) == 0 || $sola_t_options['sola_t_content_type'] == null){ echo 'checked'; } ?>/><?php _e('An Excerpt', 'sola_t'); ?><br/>
+            <input type="radio" name="sola_t_content_type" id="sola_t_content_type_content" value="1" <?php if(isset($sola_t_options['sola_t_content_type']) && $sola_t_options['sola_t_content_type'] == 1){ echo 'checked'; } ?>/><?php _e('Full Body', 'sola_t'); ?>
+        </td>
+    </tr>
+    <tr class="excerpt_length_row">
         <th><label for=""><?php _e('Excerpt Length', 'sola_t'); ?></label></th>
         <td>        
             <input type="text" name="sola_t_except_length" id="sola_t_except_length" value="<?php if(isset($sola_t_options['excerpt_length'])){ echo $sola_t_options['excerpt_length']; } ?>" />

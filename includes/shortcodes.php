@@ -18,9 +18,10 @@ function sola_t_all_testimonials($atts){
     isset($options['show_image']) ? $show_image = $options['show_image'] : $show_image = "";
     isset($options['image_size']) ? $image_size = $options['image_size'] : $image_size = "";
     isset($options['show_rating']) ? $show_rating = $options['show_rating'] : $show_rating = "";
-    isset($options['excerpt_length']) ? $excerpt_length = intval($options['excerpt_length']) : $excerpt_length = "";
-    
+    isset($options['excerpt_length']) ? $excerpt_length = intval($options['excerpt_length']) : $excerpt_length = "";    
     if(isset($options['sola_t_allow_html']) && $options['sola_t_allow_html'] == 1) { $sola_t_allow_html = 1; } else { $sola_t_allow_html = 0; }
+    
+    isset($options['sola_t_content_type']) ? $content_type = $options['sola_t_content_type'] : $content_type = 0;
     
     if(function_exists('sola_t_register_pro')){
         $my_query = testimonials_in_categories($atts);
@@ -34,9 +35,10 @@ function sola_t_all_testimonials($atts){
             $my_query = new WP_Query('post_type=testimonials&posts_per_page=-1&status=publish');
         }
     }
-//    var_dump($my_query);
+
     $ret = "<div class='sola_t_container'>";
     $cnt = 0;
+    
     while ($my_query->have_posts()): $my_query->the_post(); 
         $cnt++;
         if(isset($show_title) && $show_title == 1){
@@ -48,15 +50,11 @@ function sola_t_all_testimonials($atts){
         
         if(isset($show_body) && $show_body == 1){
             
-//            $sola_t_body_contents = explode(' ', get_the_content(), $excerpt_length + 1);
-            
-//            array_pop($sola_t_body_contents);
-//            $sola_t_edited_contents = implode(' ', $sola_t_body_contents);
-            $sola_t_edited_contents = get_the_excerpt();
-
-//            if(!$sola_t_allow_html){
-//                $sola_t_edited_contents = strip_tags($sola_t_edited_contents);
-//            }
+            if($content_type == 0){
+                $sola_t_edited_contents = get_the_excerpt();
+            } else {
+                $sola_t_edited_contents = get_the_content();
+            }
 
             $the_body = "
                 <div class=\"sola_t_body\">&ldquo;".$sola_t_edited_contents."&rdquo;</div>";
@@ -65,8 +63,8 @@ function sola_t_all_testimonials($atts){
         }
         
         if(isset($show_name) && $show_name == 1){
-            if($name = get_post_meta($post->ID, 'sola_t_user_name')) {
-                $name = $name[0]; 
+            if($name = get_post_meta($post->ID, 'sola_t_user_name', true)) {
+//                $name = $name[0]; 
                 if($name != ""){
                     $the_name = "
                     <span class=\"sola_t_name\">$name</span>";
@@ -81,13 +79,13 @@ function sola_t_all_testimonials($atts){
         }
         
         if(isset($show_website) && $show_website == 1){
-            if($website_name = get_post_meta($post->ID, 'sola_t_website_name')) {
-                $website_name = $website_name[0]; 
+            if($website_name = get_post_meta($post->ID, 'sola_t_website_name', true)) {
+                $website_name = $website_name; 
             } else { 
                 $website_name = '';
             }
-            if($website = get_post_meta($post->ID, 'sola_t_website_address')) {
-                $website = $website[0]; 
+            if($website = get_post_meta($post->ID, 'sola_t_website_address', true)) {
+                $website = $website; 
             } else { 
                 $website = '';
             }
@@ -150,6 +148,13 @@ function sola_t_all_testimonials($atts){
             $class = "";
         }
 
+        $secure = sola_t_is_secure();
+        
+        if($secure){
+            $http_req = "https://";
+        } else {
+            $http_req = "http://";
+        }
         
         if(isset($show_image) && $show_image == 1){ 
             
@@ -179,7 +184,7 @@ function sola_t_all_testimonials($atts){
 
                     $author_email_address = $sola_t_user_email;
 
-                    $grav_url = "http://www.gravatar.com/avatar/".md5(strtolower(trim($author_email_address)))."?s=$image_size&d=mm";
+                    $grav_url = $http_req."www.gravatar.com/avatar/".md5(strtolower(trim($author_email_address)))."?s=$image_size&d=mm";
 
                     $the_image = "<div class=\"sola_t_image $class\" style=\"width:".$image_size."px; height:".$image_size."px;\"><img src=\"$grav_url\" title=\"".get_the_title()."\" alt=\"".get_the_title()."\"/></div>";
 
@@ -187,7 +192,7 @@ function sola_t_all_testimonials($atts){
 
                     $author_email_address = get_the_author_meta('user_email');
 
-                    $grav_url = "http://www.gravatar.com/avatar/".md5(strtolower(trim($author_email_address)))."?s=$image_size&d=mm";
+                    $grav_url = $http_req."www.gravatar.com/avatar/".md5(strtolower(trim($author_email_address)))."?s=$image_size&d=mm";
 
                     $the_image = "<div class=\"sola_t_image $class\" style=\"width:".$image_size."px; height:".$image_size."px;\"><img src=\"$grav_url\" title=\"".get_the_title()."\" alt=\"".get_the_title()."\"/></div>";
                 }

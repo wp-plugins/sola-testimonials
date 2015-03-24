@@ -43,6 +43,7 @@ The easiest to use Testimonial plugin! Showcase your testimonials in a beautiful
 * Allow users to submit a testimonial through an easy to use and customizable form
 * Enable CAPTCHA in your testimonial submission form
 * Categorize your testimonials
+* Allow users to submit reviews (star ratings included in testimonial)
 * Priority [support](http://solaplugins.com/support-desk) 
 * Get the [Sola Testimonials Premium Version](http://solaplugins.com/plugins/sola-testimonials/?utm_source=wordpress&utm_medium=click&utm_campaign=readme) now
 
@@ -51,7 +52,6 @@ The easiest to use Testimonial plugin! Showcase your testimonials in a beautiful
 * Pagination: If testimonials exceed the max amount per line, pagination will be used
 * Allow multiple testimonials to be selected within one shortcode
 * Triggers (Request users to submit a testimonial after a specified action)
-* Allow users to submit reviews (star ratings included in testimonial)
 
 = Shortcodes =
 Show all Testimonials
@@ -174,6 +174,10 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.7 2015-03-24 - Low Priority =
+* New Feature: You can now choose to display the excerpt or the full body of a testimonial
+* New Feature: You can now change the pagination speed of the slider (Pro)
 
 = 1.6 2015-02-20 - Low Priority =
 * Bug Fix: Read More Link now shows at the end of a testimonial excerpt
