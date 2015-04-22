@@ -23,6 +23,8 @@ function sola_t_all_testimonials($atts){
     
     isset($options['sola_t_content_type']) ? $content_type = $options['sola_t_content_type'] : $content_type = 0;
     
+    if(isset($options['sola_st_strip_links']) && $options['sola_st_strip_links'] == 1){ $sola_t_strip_links = 1; } else { $sola_t_strip_links = 0; }
+    
     if(function_exists('sola_t_register_pro')){
         $my_query = testimonials_in_categories($atts);
     } else {
@@ -283,6 +285,9 @@ function sola_t_all_testimonials($atts){
     endwhile;
     
     $ret .= "</div>";
+    if($sola_t_strip_links){
+        $ret = preg_replace('/<a href[^<>]+>|<\/a>/s', '', $ret);
+    }
     return $ret;
     wp_reset_query();
 }

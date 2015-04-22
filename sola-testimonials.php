@@ -3,13 +3,20 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.7
+ * Version: 1.8
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
-/* 1.7 2015-03-24 - Low Priority
+/* 1.8 2015-04-22 - Low Priority
+ * New Feature: You can now strip all links out of a testimonial - Prevents single view 
+ * New Feature: You can now redirect to a thank you page once a testimonial has been submitted (Pro)
+ * Bug Fix: Display Star Rating Option not saving in slider tab fixed (Pro)
+ * Translations added:
+ *  Swedish (Thank you Jorgen Sjoholm)
+ * 
+ * 1.7 2015-03-24 - Low Priority
  * New Feature: You can now choose to display the excerpt or the full body of a testimonial
  * New Feature: You can now change the pagination speed of the slider (Pro)
  * 
@@ -84,7 +91,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.7";
+$sola_t_version = "1.8";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){
@@ -712,6 +719,7 @@ if (isset($_POST['sola_t_save_options'])){
         if(isset($sola_t_show_image)){ $sola_t_saved_forms['show_image'] = $sola_t_show_image; } else { $sola_t_saved_forms['show_image'] = ''; }
         if(isset($sola_t_allow_html)){ $sola_t_saved_forms['sola_t_allow_html'] = $sola_t_allow_html; } else { $sola_t_saved_forms['sola_t_allow_html'] = ''; }        
         if(isset($sola_t_content_type)){ $sola_t_saved_forms['sola_t_content_type'] = $sola_t_content_type; } else { $sola_t_saved_forms['sola_t_content_type'] = 0; }
+        if(isset($sola_st_strip_links)){ $sola_t_saved_forms['sola_st_strip_links'] = $sola_st_strip_links; } else { $sola_t_saved_forms['sola_st_strip_links'] = ''; }
         
         $update_form = update_option('sola_t_options_settings', $sola_t_saved_forms);
 

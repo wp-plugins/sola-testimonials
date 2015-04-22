@@ -3,7 +3,7 @@ Contributors: SolaPlugins, Jarryd Long, NickDuncan
 Donate link: http://solaplugins.com
 Tags: testimonial, testimonials, testimonial plugin, testimonial widget, testimonial manager
 Requires at least: 3.6
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2
 
@@ -113,6 +113,7 @@ Testimonial submit form (Pro)
 Get a free copy of the Sola Testimonials Premium version in exchange for translating our plugin!
 
 * English (Default)
+* Swedish (Jorgen Sjoholm)
 
 
 = How to effectively use testimonials =
@@ -174,6 +175,13 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.8 2015-04-22 - Low Priority =
+* New Feature: You can now strip all links out of a testimonial - Prevents single view 
+* New Feature: You can now redirect to a thank you page once a testimonial has been submitted (Pro)
+* Bug Fix: Display Star Rating Option not saving in slider tab fixed (Pro)
+* Translations added:
+*  Swedish (Thank you Jorgen Sjoholm)
 
 = 1.7 2015-03-24 - Low Priority =
 * New Feature: You can now choose to display the excerpt or the full body of a testimonial

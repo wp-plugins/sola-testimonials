@@ -14,6 +14,13 @@
         </td>
     </tr>
     <tr>
+        <th><label for=""><?php _e('Strip all links out of the testimonials', 'sola_t'); ?></label></th>
+        <td>        
+            <input type="checkbox" name="sola_st_strip_links" id="sola_st_strip_links" value="1" <?php if(isset($sola_t_options['sola_st_strip_links']) && $sola_t_options['sola_st_strip_links'] == 1){ echo 'checked'; } ?>/>
+            <p class="description"><?php _e('This will remove all links, and prevent your users from viewing the \'Single view\' of a testimonial', 'sola_st'); ?></p>
+        </td>
+    </tr>
+    <tr>
         <th><label for=""><?php _e('Allow HTML to be rendered in the testimonial', 'sola_t'); ?></label></th>
         <td>        
             <input type="checkbox" name="sola_t_allow_html" id="sola_t_allow_html" value="1" <?php if(isset($sola_t_options['sola_t_allow_html']) && $sola_t_options['sola_t_allow_html'] == 1){ echo 'checked'; } ?>/>
