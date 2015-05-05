@@ -114,6 +114,8 @@ Get a free copy of the Sola Testimonials Premium version in exchange for transla
 
 * English (Default)
 * Swedish (Jorgen Sjoholm)
+* Brazilian Portuguese (Marcio Marodin)
+* Spanish (Esteban Truelsegaard)
 
 
 = How to effectively use testimonials =
@@ -175,6 +177,11 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.8.1 2015-05-05 - Low Priority =
+* Translations added:
+*  Brazilian Portuguese (Thank you Marcio Marodin)
+*  Spanish (Thank you Esteban Truelsegaard)
 
 = 1.8 2015-04-22 - Low Priority =
 * New Feature: You can now strip all links out of a testimonial - Prevents single view 

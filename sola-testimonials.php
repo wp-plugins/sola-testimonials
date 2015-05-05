@@ -3,13 +3,18 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.8
+ * Version: 1.8.1
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
-/* 1.8 2015-04-22 - Low Priority
+/* 1.8.1 2015-05-05 - Low Priority
+ * Translations added:
+ *  Brazilian Portuguese (Thank you Marcio Marodin)
+ *  Spanish (Thank you Esteban Truelsegaard)
+ * 
+ * 1.8 2015-04-22 - Low Priority
  * New Feature: You can now strip all links out of a testimonial - Prevents single view 
  * New Feature: You can now redirect to a thank you page once a testimonial has been submitted (Pro)
  * Bug Fix: Display Star Rating Option not saving in slider tab fixed (Pro)
@@ -91,7 +96,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.8";
+$sola_t_version = "1.8.1";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){

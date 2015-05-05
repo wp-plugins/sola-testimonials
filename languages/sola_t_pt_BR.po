@@ -1,0 +1,1091 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sola_t\n"
+"POT-Creation-Date: 2015-04-29 13:08+0200\n"
+"PO-Revision-Date: 2015-04-29 12:52-0300\n"
+"Last-Translator: Marcio Marodin <marcio@praiadorosa.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-"
+"testimonials\n"
+"X-Poedit-SearchPath-1: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-"
+"testimonials-pro\n"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:167
+msgid "Testimonial Author"
+msgstr "Autor Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:174
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:411
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:716
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1218
+msgid "Read More"
+msgstr "Leia Mais"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:193
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:200
+msgid "Our Testimonials"
+msgstr "Nossos Depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:230
+msgid "Settings"
+msgstr "Configurações"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:231
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/feedback.php:40
+msgid "Feedback"
+msgstr "Retorno"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:363
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:365
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:366
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:364
+msgid "Testimonial"
+msgstr "Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:367
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:368
+msgid "Add New Testimonial"
+msgstr "Adicionar Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:369
+msgid "New Testimonial"
+msgstr "Novo Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:370
+msgid "Edit Testimonial"
+msgstr "Editar Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:371
+msgid "View Testimonial"
+msgstr "Ver Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:372
+msgid "All Testimonials"
+msgstr "Todos Depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:373
+msgid "Search Testimonials"
+msgstr "Procurar Depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:374
+msgid "Parent Testimonials:"
+msgstr "Depoimento Pai:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:375
+msgid "No testimonials Found."
+msgstr "Nenhum depoimento encontrado."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:376
+msgid "No testimonials Found In Trash."
+msgstr "Nenhum depoimento encontrado na lixeira."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:420
+msgid "Testimonial Data"
+msgstr "Info do Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:437
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:439
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:611
+msgid "User Name"
+msgstr "Nome do Usuário"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:443
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:445
+msgid "User Email Address"
+msgstr "Email do Usuário"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:447
+msgid ""
+"The users email address will be used to show their gravatar image. To use a "
+"custom image, leave this field blank and enter an Image URL below. "
+msgstr ""
+"O email do usuário será utilizado para mostrar a imagem do gravata. Para "
+"usar uma imagem personalizada, deixe esse campo em branco e informe a URL da "
+"imagem abaixo."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:452
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:454
+msgid "Image URL"
+msgstr "URL da Imagem"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:456
+msgid ""
+"Leave this field blank to use the gravatar image of the author. The User "
+"Image (Right) will override this option."
+msgstr ""
+"Deixe esse campo em branco para usar a imagem gravatar do autor. A imagem do "
+"Usuário (Direita) vai sobrepor essa opção."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:461
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:612
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:90
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:176
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:931
+msgid "Website Name"
+msgstr "Nome do Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:463
+msgid "User Website Name"
+msgstr "Nome do Usuário do Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:467
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:613
+msgid "Website Address"
+msgstr "Endereço do Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:469
+msgid "User Web Address"
+msgstr "Endereço Web do Usuário"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:478
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:487
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:514
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:615
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:159
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:944
+msgid "Rating"
+msgstr "Qualificação"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:480
+msgid ""
+"Please update to the latest version of Sola Testimonials Pro to take "
+"advantage of star ratings"
+msgstr ""
+"Por favor atualize para a última versão do Sola Testimonials Pro para usar "
+"as vantagens da qualificação por estrelas."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:516
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/slider.php:9
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:4
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:9
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:84
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:5
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:47
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:65
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:222
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:238
+msgid "Premium Version"
+msgstr "Versão Premium"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:522
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:616
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:575
+msgid "Testimonial Status"
+msgstr "Estatus do Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:593
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:614
+msgid "Status"
+msgstr "Estatus"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:597
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:640
+msgid "Pending Approval"
+msgstr "Aprovação pendente"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:598
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:638
+msgid "Approved"
+msgstr "Aprovado"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:660
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:672
+msgid "Thank you for your feedback. We will be in touch soon"
+msgstr "Obrigado pela sua qualificação. Entraremos em contato em breve"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:676
+msgid "There was a problem sending your feedback. Please log your feedback on "
+msgstr "Ouve um problema ao enviar sua qualificação. Por favor tente novamente"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:729
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:757
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:901
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:962
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1232
+msgid "Update Successful"
+msgstr "Atualização efetuado com sucesso"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:735
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:763
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:907
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:968
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1238
+msgid "No changes were made"
+msgstr "Não houve mudanças"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/sola-testimonials.php:784
+msgid "User Image"
+msgstr "Imagem do usuário"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:3
+msgid "Welcome to "
+msgstr "Benvindo a"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:6
+msgid "A super easy to use and comprehensive Testimonial plugin."
+msgstr "Plugin de Depoimento super fácil de usar."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:10
+msgid "How did you find us?"
+msgstr "Como você nos encontrou?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:15
+msgid "WordPress.org plugin repository "
+msgstr "Wordpress Diretório de Plugins"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:18
+msgid "Search Term"
+msgstr "Termo de Pesquisa"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:22
+msgid "Google or other search Engine"
+msgstr "Google ou outro site de pesquisa"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:28
+msgid "Friend recommendation"
+msgstr "Recomendação de amigo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:34
+msgid "Other"
+msgstr "Outro"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:38
+msgid "Please Explain"
+msgstr "Por favor Explique"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:47
+msgid "Submit"
+msgstr "Enviar"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/welcome-page.php:49
+msgid "Skip"
+msgstr "Pular"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:4
+msgid "Sola Testimonials - Settings"
+msgstr "Sola Testimonials - Configurações"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:5
+msgid ""
+"Please ensure you have saved any changes before navigating to another tab"
+msgstr "Por favor confirme se salvou as alterações antes de mudar de aba."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:10
+msgid "Styles"
+msgstr "Estilos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:11
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:12
+msgid "Options"
+msgstr "Opções"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:13
+msgid "Form Options"
+msgstr "Opções do Formulário"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:14
+msgid "Slider"
+msgstr "Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings.php:16
+msgid "Upgrade"
+msgstr "Atualizar"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/feedback.php:9
+msgid "Sola Testimonials Feedback"
+msgstr "Sola Testimonials Qualificação"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/feedback.php:11
+msgid "We'd love to hear your comments and/or suggestions"
+msgstr "Gostaríamos de ouvir seus comentários e sugestões"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/feedback.php:16
+msgid "Your Name"
+msgstr "Seu Nome"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/feedback.php:24
+msgid "Your Email"
+msgstr "Seu Email"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/feedback.php:32
+msgid "Your Website"
+msgstr "Seu Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/feedback.php:50
+msgid "Send Feedback"
+msgstr "Enviar Qualificação"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:6
+msgid "Support Desk"
+msgstr "Suporte"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:7
+msgid "Contact"
+msgstr "Contato"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:9
+msgid ""
+"If you find any errors or if you have any suggestions, Get in contact with "
+"us via our "
+msgstr ""
+"Se você achar qualquer erro ou se você tiver qualquer sugestão, entre em "
+"contato conosco via nosso"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:11
+msgid "Follow us on Twitter"
+msgstr "Segua nos no Twitter"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:16
+msgid "Sola Testimonials Premium Version: "
+msgstr "Sola Testimonials Versão Premium: "
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:17
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:22
+msgid "Support"
+msgstr "Suporte"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:21
+msgid "Sola Testimonials Version: "
+msgstr "Sola Testimonials Versão: "
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/footer.php:23
+msgid "Go Premium"
+msgstr "Vire Premium"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/slider.php:13
+msgid "Slider Preview"
+msgstr "Preview do Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:8
+msgid "Priority Support"
+msgstr "Suporte Prioritário"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:9
+msgid "Pay once and never again!"
+msgstr "Pague uma vez e nunca mais!"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:10
+msgid "Allow your visitors to submit a testimonial on your site."
+msgstr "Possibilite seus visitantes enviar depoimentos no seu site."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:11
+msgid "Display testimonials in a slider"
+msgstr "Mostre depoimentos em um slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:12
+msgid "Organize your testimonials into categories"
+msgstr "Organize os depoimentos em categorias"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:13
+msgid "Choose a default category your testimonials will be added to   "
+msgstr "Selecione a categoria padrão que seus depoimentos serão adicionados"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/upgrade.php:16
+msgid "$19.99"
+msgstr "U$19.99"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:4
+msgid "Choose an Image Style"
+msgstr "Selecione um Estilo para Imagem"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:6
+msgid "Image 1"
+msgstr "Imagem 1"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:7
+msgid "Image 2"
+msgstr "Imagem 2"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:18
+msgid "Choose a Layout"
+msgstr "Selecione um Layout"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:20
+msgid "Layout 1"
+msgstr "Layout 1"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:21
+msgid "Layout 2"
+msgstr "Layout 2"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:22
+msgid "Layout 3"
+msgstr "Layout 3"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:23
+msgid "Layout 4"
+msgstr "Layout 4"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:24
+msgid "Layout 5"
+msgstr "Layout 5"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:32
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:100
+msgid "Click here"
+msgstr "Clique aqui"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:43
+msgid "Choose a Theme"
+msgstr "Escolha um Tema"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:61
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:62
+msgid "Clean Theme"
+msgstr "Tema Limpo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:63
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:65
+msgid "Bubble Theme"
+msgstr "Tema Bolhas"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:64
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:66
+msgid "Card Theme"
+msgstr "Tema Cartão"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:77
+msgid "Unlock all themes"
+msgstr "Desbloqueie todos os temas"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:90
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:97
+msgid "Custom CSS"
+msgstr "CSS customizado"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:93
+msgid "Style your testimonials to your preference."
+msgstr "Estilize seus depoimentos como desejar."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:103
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:100
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:270
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:110
+msgid "Update Settings"
+msgstr "Atualizar configurações"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:108
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:114
+msgid "Available Classes"
+msgstr "Classes disponíveis"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/styles.php:109
+msgid ""
+"The following classes can be used to style your testimonials to your "
+"preference"
+msgstr ""
+"As seguintes classes podem ser utilizadas para estilizar seus depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:15
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:16
+msgid "Display Title Input?"
+msgstr "Mostrar Título?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:24
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:22
+msgid "Title Field Required?"
+msgstr "O campo é obrigatório?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:30
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:28
+msgid "Title Field Label"
+msgstr "Rótulo do campo Título"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:32
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:168
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:921
+msgid "Title"
+msgstr "Título"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:36
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:34
+msgid "Title Field Description"
+msgstr "Descrição do campo Título"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:38
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:169
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:922
+msgid "Provide a title for your testimonial."
+msgstr "Informe um título para seu depoimento."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:47
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:45
+msgid "Display Name Input?"
+msgstr "Mostrar o Nome?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:53
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:51
+msgid "Name Field Required?"
+msgstr "Campo Nome obrigatório?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:59
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:57
+msgid "Name Field Label"
+msgstr "Rótulo do campo Nome"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:61
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:172
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:926
+msgid "Name"
+msgstr "Nome"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:65
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:63
+msgid "Name Field Description"
+msgstr "Descrição do campo Nome"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:67
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:173
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:927
+msgid "What is your name?"
+msgstr "Qual seu nome?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:76
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:74
+msgid "Display Website Name Input?"
+msgstr "Mostrar o Website?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:82
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:80
+msgid "Website Name Field Required?"
+msgstr "Campo Website obrigatório?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:88
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:86
+msgid "Website Name Field Label"
+msgstr "Rótulo do campo Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:94
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:92
+msgid "Website Name Field Description"
+msgstr "Descrição do campo Website "
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:96
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:177
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:932
+msgid "What is the name of your website?"
+msgstr "Qual o nome do seu Website?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:105
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:103
+msgid "Display Website Address Input?"
+msgstr "Mostrar o Endereço do Website?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:111
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:109
+msgid "Website Address Field Required?"
+msgstr "Campo Endereço Website obrigatório?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:117
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:115
+msgid "Website Address Field Label"
+msgstr "Rótulo do campo Endereço do Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:119
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:180
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:936
+msgid "Website URL"
+msgstr "URL do Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:123
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:121
+msgid "Website Address Field Description"
+msgstr "Descrição do campo Endereço do Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:125
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:181
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:937
+msgid "What is the URL to your website?"
+msgstr "Qual a URL do seu Website?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:134
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:132
+msgid "Body Content Field Label"
+msgstr "Rótulo do campo Conteúdo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:136
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:182
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:939
+msgid "Body"
+msgstr "Conteúdo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:140
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:138
+msgid "Body Content Field Description"
+msgstr "Descrição do Campo Conteúdo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:142
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:183
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:940
+msgid "Tell us your thoughts?"
+msgstr "Conte-nos seus pensamentos?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:151
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:149
+msgid "Enable Ratings?"
+msgstr "Abilitar Qualificação?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:157
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:161
+msgid "Rating Field Label"
+msgstr "Rótulo do campo Qualificação"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:163
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:167
+msgid "Rating Field Description"
+msgstr "Descrição do campo Qualificação"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:165
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:945
+msgid "Rate your experience with us"
+msgstr "Qualifique sua experiência conosco"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:174
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:189
+msgid "Enable CAPTCHA?"
+msgstr "Abilitar CAPTCHA?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:180
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:196
+msgid "CAPTCHA Field Label"
+msgstr "Rótulo do campo CAPTCHA"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:182
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:185
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:948
+msgid "CAPTCHA Verification"
+msgstr "Verificação CAPTCHA"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:186
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:202
+msgid "CAPTCHA Address Field Description"
+msgstr "Descrição do campo CAPTCHA"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:188
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:186
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:949
+msgid "Please verify you are human."
+msgstr "Por favor verifique se você é humano."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:197
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1091
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:218
+msgid "Allow Users To Choose A Category"
+msgstr "Permitir que usuários selecionem uma categoria"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:208
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:67
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1105
+msgid "Display Testimonials Based On Category"
+msgstr "Mostar Depoimentos baseados em Categorias"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/forms.php:210
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:584
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1065
+msgid "None"
+msgstr "Nenhum"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:2
+msgid ""
+"The below options will only affect testimonials using the 'Single' or 'Grid' "
+"Layouts. To change the options of your slider, plese navigate to the "
+"'Slider' tab."
+msgstr ""
+"As opções abaixo afetarão apenas depoimentos que estão usando os Layouts "
+"'Single' ou 'Grid'. Para mudar as opções do seu slider, por favor navegue "
+"até a Aba 'Slider'."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:5
+msgid "Show Testimonial Title"
+msgstr "Mostrar o título do Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:11
+msgid "Show Testimonial Body"
+msgstr "Mostrar Conteúdo do Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:17
+msgid "Strip all links out of the testimonials"
+msgstr "Retirar todos os links dos depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:20
+msgid ""
+"This will remove all links, and prevent your users from viewing the 'Single "
+"view' of a testimonial"
+msgstr ""
+"Isso irá remover todos os links, e impedirá que os usuários vejam apenas um "
+"único depoimento 'Single view'"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:24
+msgid "Allow HTML to be rendered in the testimonial"
+msgstr "Permitir que seja utilizado HTML nos depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:30
+msgid "Testimonial content type"
+msgstr "Tipo de conteúdo dos depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:32
+msgid "An Excerpt"
+msgstr "Resumo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:33
+msgid "Full Body"
+msgstr "Conteúdo Completo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:37
+msgid "Excerpt Length"
+msgstr "Tamanho do resumo"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:40
+msgid "How long should your testimonial teaser be? (Specify number of words)."
+msgstr "Qual o comprimento do resumo? (Especifique o número de palavras)."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:44
+msgid "Default Image Size"
+msgstr "Tamanho Padrão da imagem"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:47
+msgid "Size of testimonial images (px)."
+msgstr "Tamanho da imagem (px)."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:51
+msgid "Read More Link"
+msgstr "Link Leia Mais"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:57
+msgid "Show User's Name"
+msgstr "Mostrar o Nome do Usuário"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:63
+msgid "Show Link To User's Website"
+msgstr "Mostrar o Link do Website"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:69
+msgid "Show Testimonial Image"
+msgstr "Mostrar Imagem do Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:76
+msgid "Show Star Rating"
+msgstr "Mostrar Qualificação Estrelas"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/options.php:87
+msgid "Show Rating"
+msgstr "Mostrar Qualificação"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:7
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:207
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:214
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:997
+msgid "Submit A Testimonial"
+msgstr "Enviar Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:20
+msgid "Display A Single Testimonial"
+msgstr "Mostrar um único depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:23
+msgid "Show off a single tesimonial. Use the ID of the testimonial."
+msgstr "Para mostrar um depoimento. Use o ID do depoimento."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:32
+msgid "Display All Testimonials"
+msgstr "Mostrar todos os Depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:35
+msgid "Show off your raving reviews all on one page"
+msgstr "Mostar todas as qualificações em uma página"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials/includes/settings/shortcodes.php:49
+msgid "Display Testimonials In A Slider"
+msgstr "Mostar Depoimentos num Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:148
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Um erro de HTTP inesperado ocorreu.</p> <p><a href=\"?\" onclick=\"document."
+"location.reload(); return false;\">Tente novamente</a>"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:153
+msgid "An unknown error occurred"
+msgstr "Ocorreu um erro desconhecido"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:409
+msgid "A valid title is required."
+msgstr "É necessário um título válido."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:428
+msgid "Your name is required."
+msgstr "Seu nome é obrigatório."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:438
+msgid "Email Address"
+msgstr "Email"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:441
+msgid "What is your email address?"
+msgstr "Qual seu endereço de email?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:448
+msgid "Your email address is required."
+msgstr "Obrigatório seu endereço de email."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:467
+msgid "A valid name is required."
+msgstr "É obrigatório um Nome válido."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:486
+msgid "A valid URL is required (Include http://)"
+msgstr "É obrigatório uma URL válida (Inclua http://)"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:504
+msgid "A valid testimonial is required."
+msgstr "É obrigatório um Depoimento válido."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:575
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1010
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1050
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:234
+msgid "Category"
+msgstr "Categoria"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:588
+msgid "What category would you like to add your testimonial to?"
+msgstr "Qual a categoria do seu depoimento? "
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:619
+msgid "Log in"
+msgstr "Logar"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:619
+msgid "or"
+msgstr "ou"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:619
+msgid "register"
+msgstr "Registrar"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:619
+msgid "to submit a testimonial."
+msgstr "Para enviar um depoimento."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:978
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:4
+msgid "Display Testimonials in a Slider"
+msgstr "Mostrar Depoimentos num Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:981
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:7
+msgid "Show off your raving testimonials in a slider."
+msgstr "Mostrar qualificação num slider "
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:985
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:11
+msgid "Display Testimonials Based on a Category"
+msgstr "Mostar depoimentos da Categoria"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:988
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1108
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:14
+msgid "Display and group your testimonials."
+msgstr "Mostar e agrupar seus depoimentos."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1000
+msgid "Allow your visitors to submit a testimonial on your website."
+msgstr "Permitir que visitantes enviem depoimentos no website."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1009
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1019
+msgid "Categories"
+msgstr "Categorias"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1011
+msgid "Search Categories"
+msgstr "Pesquisar Categorias"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1012
+msgid "All Categories"
+msgstr "Todas Categorias"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1013
+msgid "Parent Category"
+msgstr "Categoria Pai"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1014
+msgid "Parent Category:"
+msgstr "Categoria Pai:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1015
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1016
+msgid "Update Category"
+msgstr "Atualizar Categoria"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1017
+msgid "Add New Category"
+msgstr "Nova Categoria"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1018
+msgid "New Category Name"
+msgstr "Nome da Nova Categoria"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1068
+msgid "Choose choose the default category your testimonial will be added to"
+msgstr "Escolha a categoria padrão que seu depoimento será adicionado"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1072
+msgid "You have not created any categories."
+msgstr "Você não criou nenhuma categoria."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/sola-testimonials-pro.php:1095
+msgid ""
+"Allow users to choose the category they want their testimonial to be added to"
+msgstr "Possibilite que o usuário escolha a categoria do seu Depoimento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:2
+msgid ""
+"Specify if you want to display a specific field, whether its required or "
+"not, its label and description and a default category for your submission "
+"form below."
+msgstr ""
+"Defina se deseja mostrar algum campo específico, se é obrigatório ou não, "
+"seu rótulo, descrição e uma categoria padrão para seu formulário abaixo."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:5
+msgid "Require users to be logged in to submit a testimonial"
+msgstr "Obrigar usuários estarem logados para enviar depoimentos"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:155
+msgid "Rating Field Required?"
+msgstr "Campo Qualificação Obrigatório?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:179
+msgid "ReallySimpleCaptcha"
+msgstr "ReallySimpleCaptcha"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:180
+msgid "CAPTCHA can only be enabled if "
+msgstr "CAPTCHA apenas pode ser habilitado se"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:223
+msgid ""
+"Allow users to choose the category they want their testimonial to be added "
+"to, only available in the "
+msgstr ""
+"Permitir que os usuários selecionem a categoria para seu depoimento, apenas "
+"disponível no"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:239
+msgid ""
+"Choose choose the default category your testimonial will be added to, only "
+"available in the "
+msgstr "Selecione a categoria padrão, apenas disponível no"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:251
+msgid "Redirect page on successful submission"
+msgstr "Página de sucesso de envio"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:254
+msgid ""
+"Should the page redirect to a custom page of your choice when a user submits "
+"a testimonial?"
+msgstr ""
+"Deverá redirecionar a uma página customizada quando enviar depoimentos?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:258
+msgid "URL to redirect page"
+msgstr "URL para a pagína de redirecionamento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:260
+msgid "http://mydomain.com/testimonials-thank-you"
+msgstr "http://mydomain.com/testimonials-thank-you"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-form-options.php:261
+msgid "Please use a full URL to the page that it should be redirected to"
+msgstr "Por favor use a URL completa para página de redirecionamento"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:23
+msgid "Show Image In Slider"
+msgstr "Mostar Imagem no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:29
+msgid "Show Title In Slider"
+msgstr "Mostrar Título no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:35
+msgid "Show Excerpt In Slider"
+msgstr "Mostar resumo no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:41
+msgid "Show User Name In Slider"
+msgstr "Mostar o Nome do Usuário no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:47
+msgid "Show User Website In Slider"
+msgstr "Mostar o Website no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:53
+msgid "Show Star Rating In Slider"
+msgstr "Mostrar Estrelas no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:64
+msgid "Show Slider Navigation"
+msgstr "Mostar navegação no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:67
+msgid "Next/Previous buttons on the left and right of the slider"
+msgstr "Botões Anterior/Próximo na esquerda e direita do Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:71
+msgid "Show Slider Pagination"
+msgstr "Mostar Paginação no Slider"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:74
+msgid "Navigation/Buttons at the bottom of the slider (Bullets)"
+msgstr "Botões de navegação na parte de baixo do slider (bolinhas)"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:78
+msgid "Number of Items Per Slide"
+msgstr "Número de ítens por Slide"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:81
+msgid "Number of testimonials that should be displayed in each slide."
+msgstr "Número de Depoimentos que devem ser mostrados em cada Slide."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:85
+msgid "Pagination Speed"
+msgstr "Velocidade da paginação"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:88
+msgid "Pagination speed in milliseconds."
+msgstr "Velocidade da paginação em milissegundos."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/sola-testimonials-pro/includes/pro-slider.php:115
+msgid ""
+"The following classes can be used to style your testimonials in your slider "
+"to your preference"
+msgstr ""
+"As seguintes classes podem ser usadas para estilizar os depoimentos nos "
+"sliders"
