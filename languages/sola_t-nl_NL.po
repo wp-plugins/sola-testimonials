@@ -1,0 +1,1115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sola Testimonials\n"
+"POT-Creation-Date: 2015-05-12 15:33+0200\n"
+"PO-Revision-Date: 2015-09-08 21:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress\\wp-content\\plugins\\sola-"
+"testimonials\n"
+"X-Poedit-SearchPath-1: C:\\wamp\\www\\wordpress\\wp-content\\plugins\\sola-"
+"testimonials-pro\n"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:2
+msgid ""
+"Specify if you want to display a specific field, whether its required or "
+"not, its label and description and a default category for your submission "
+"form below."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:5
+msgid "Require users to be logged in to submit a testimonial"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:16
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:15
+msgid "Display Title Input?"
+msgstr "Toon titelveld?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:22
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:24
+msgid "Title Field Required?"
+msgstr "Titelveld verplicht?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:28
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:30
+msgid "Title Field Label"
+msgstr "Titelveld label"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:34
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:36
+msgid "Title Field Description"
+msgstr "Titelveld omschrijving"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:45
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:47
+msgid "Display Name Input?"
+msgstr "Toon naamveld?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:51
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:53
+msgid "Name Field Required?"
+msgstr "Naamveld verplicht?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:57
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:59
+msgid "Name Field Label"
+msgstr "Naamveld label"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:63
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:65
+msgid "Name Field Description"
+msgstr "Naamveld omschrijving"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:74
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:76
+msgid "Display Website Name Input?"
+msgstr "Toon websitenaamveld?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:80
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:82
+msgid "Website Name Field Required?"
+msgstr "Websitenaamveld verplicht?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:86
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:88
+msgid "Website Name Field Label"
+msgstr "Websitenaamveld label"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:92
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:94
+msgid "Website Name Field Description"
+msgstr "Websitenaamveld omschrijving"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:103
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:105
+msgid "Display Website Address Input?"
+msgstr "Toon websiteadresveld?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:109
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:111
+msgid "Website Address Field Required?"
+msgstr "Websiteadresveld verplicht?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:115
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:117
+msgid "Website Address Field Label"
+msgstr "Websiteadresveld label"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:121
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:123
+msgid "Website Address Field Description"
+msgstr "Websiteadresveld omschrijving"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:132
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:134
+msgid "Body Content Field Label"
+msgstr "Inhoudveld label"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:138
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:140
+msgid "Body Content Field Description"
+msgstr "Inhoudveld omschrijving"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:149
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:151
+msgid "Enable Ratings?"
+msgstr "Beoordeling inschakelen?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:155
+#, fuzzy
+msgid "Rating Field Required?"
+msgstr "Naamveld verplicht?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:161
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:157
+msgid "Rating Field Label"
+msgstr "Beoordelingsveld label"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:167
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:163
+msgid "Rating Field Description"
+msgstr "Beoordelingsveld omschrijving"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:179
+msgid "ReallySimpleCaptcha"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:180
+msgid "CAPTCHA can only be enabled if "
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:189
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:174
+msgid "Enable CAPTCHA?"
+msgstr "CAPTCHA inschakelen?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:196
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:180
+msgid "CAPTCHA Field Label"
+msgstr "CAPTCHA-veld label"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:202
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:186
+msgid "CAPTCHA Address Field Description"
+msgstr "CAPTCHA-adresveld omschrijving"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:218
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1091
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:197
+msgid "Allow Users To Choose A Category"
+msgstr "Gebruikers toestaan een categorie te kiezen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:222
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:238
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:9
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:84
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:5
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:47
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:65
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/slider.php:9
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:4
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:524
+msgid "Premium Version"
+msgstr "Premium Versie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:223
+msgid ""
+"Allow users to choose the category they want their testimonial to be added "
+"to, only available in the "
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:234
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:575
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1010
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1050
+msgid "Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:239
+#, fuzzy
+msgid ""
+"Choose choose the default category your testimonial will be added to, only "
+"available in the "
+msgstr "Kies een standaardcategorie waaraan uw recensies worden toegevoegd"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:251
+msgid "Redirect page on successful submission"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:254
+msgid ""
+"Should the page redirect to a custom page of your choice when a user submits "
+"a testimonial?"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:258
+msgid "URL to redirect page"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:260
+msgid "http://mydomain.com/testimonials-thank-you"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:261
+msgid "Please use a full URL to the page that it should be redirected to"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-form-options.php:270
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:110
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:100
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:103
+msgid "Update Settings"
+msgstr "Instellingen bijwerken"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:4
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:978
+#, fuzzy
+msgid "Display Testimonials in a Slider"
+msgstr "Toon recensies in een slider"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:7
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:981
+#, fuzzy
+msgid "Show off your raving testimonials in a slider."
+msgstr "Toon recensies in een slider"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:11
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:985
+#, fuzzy
+msgid "Display Testimonials Based on a Category"
+msgstr "Weergave recensies op basis van categorie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:14
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:988
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1108
+#, fuzzy
+msgid "Display and group your testimonials."
+msgstr "Toon alle recensies"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:23
+msgid "Show Image In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:29
+msgid "Show Title In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:35
+msgid "Show Excerpt In Slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:41
+#, fuzzy
+msgid "Show User Name In Slider"
+msgstr "Toon gebruikersnaam"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:47
+#, fuzzy
+msgid "Show User Website In Slider"
+msgstr "Naam website gebruiker"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:53
+#, fuzzy
+msgid "Show Star Rating In Slider"
+msgstr "Toon sterbeoordeling"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:64
+#, fuzzy
+msgid "Show Slider Navigation"
+msgstr "Toon sterbeoordeling"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:67
+msgid "Next/Previous buttons on the left and right of the slider"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:71
+#, fuzzy
+msgid "Show Slider Pagination"
+msgstr "Toon sterbeoordeling"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:74
+msgid "Navigation/Buttons at the bottom of the slider (Bullets)"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:78
+msgid "Number of Items Per Slide"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:81
+msgid "Number of testimonials that should be displayed in each slide."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:85
+msgid "Pagination Speed"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:88
+msgid "Pagination speed in milliseconds."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:97
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:90
+msgid "Custom CSS"
+msgstr "﻿Aangepaste CSS"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:100
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:32
+msgid "Click here"
+msgstr "Klik hier"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:114
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:108
+msgid "Available Classes"
+msgstr "Beschikbare Classes"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/includes/pro-slider.php:115
+#, fuzzy
+msgid ""
+"The following classes can be used to style your testimonials in your slider "
+"to your preference"
+msgstr ""
+"De volgende classes kunnen worden gebruikt om de stijl van uw recensies aan "
+"uw voorkeur aan te passen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:148
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:153
+msgid "An unknown error occurred"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:168
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:921
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:32
+msgid "Title"
+msgstr "Titel"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:169
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:922
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:38
+msgid "Provide a title for your testimonial."
+msgstr "Geef een titel voor uw recensie."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:172
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:926
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:61
+msgid "Name"
+msgstr "Naam"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:173
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:927
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:67
+msgid "What is your name?"
+msgstr "Wat is uw naam?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:176
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:931
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:90
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:469
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:620
+msgid "Website Name"
+msgstr "Websitenaam"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:177
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:932
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:96
+msgid "What is the name of your website?"
+msgstr "Wat is de naam van uw website?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:180
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:936
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:119
+msgid "Website URL"
+msgstr "Website URL"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:181
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:937
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:125
+msgid "What is the URL to your website?"
+msgstr "Wat is de URL naar uw website?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:182
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:939
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:136
+msgid "Body"
+msgstr "Inhoud"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:183
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:940
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:142
+msgid "Tell us your thoughts?"
+msgstr "Vertel ons wat je vind"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:185
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:948
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:182
+msgid "CAPTCHA Verification"
+msgstr "CAPTCHA verificatie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:186
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:949
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:188
+msgid "Please verify you are human."
+msgstr "Bevestig a.u.b. dat u een persoon bent."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:207
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:214
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:997
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:7
+msgid "Submit A Testimonial"
+msgstr "Plaats een recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:409
+msgid "A valid title is required."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:428
+#, fuzzy
+msgid "Your name is required."
+msgstr "Naamveld verplicht?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:438
+#, fuzzy
+msgid "Email Address"
+msgstr "E-mailadres gebruiker"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:441
+#, fuzzy
+msgid "What is your email address?"
+msgstr "Wat is uw naam?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:448
+#, fuzzy
+msgid "Your email address is required."
+msgstr "Websiteadresveld verplicht?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:467
+msgid "A valid name is required."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:486
+msgid "A valid URL is required (Include http://)"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:504
+#, fuzzy
+msgid "A valid testimonial is required."
+msgstr "Geen recensies gevonden."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:584
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1065
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:210
+msgid "None"
+msgstr "Geen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:588
+msgid "What category would you like to add your testimonial to?"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:619
+msgid "Log in"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:619
+msgid "or"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:619
+msgid "register"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:619
+#, fuzzy
+msgid "to submit a testimonial."
+msgstr "Plaats een recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:901
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:962
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1232
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:737
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:765
+msgid "Update Successful"
+msgstr "Update succesvol"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:907
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:968
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1238
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:743
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:771
+msgid "No changes were made"
+msgstr "Geen wijzigingen aangebracht."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:944
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:159
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:486
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:495
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:522
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:623
+msgid "Rating"
+msgstr "Beoordeling"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:945
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:165
+msgid "Rate your experience with us"
+msgstr "Beoordeel uw ervaring met ons"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1000
+#, fuzzy
+msgid "Allow your visitors to submit a testimonial on your website."
+msgstr "Sta uw bezoekers toe een recensie te plaatsen op uw site."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1009
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1019
+msgid "Categories"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1011
+#, fuzzy
+msgid "Search Categories"
+msgstr "Zoekterm"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1012
+msgid "All Categories"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1013
+msgid "Parent Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1014
+msgid "Parent Category:"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1015
+msgid "Edit Category"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1016
+#, fuzzy
+msgid "Update Category"
+msgstr "Instellingen bijwerken"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1017
+#, fuzzy
+msgid "Add New Category"
+msgstr "Nieuwe toevoegen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1018
+msgid "New Category Name"
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1068
+#, fuzzy
+msgid "Choose choose the default category your testimonial will be added to"
+msgstr "Kies een standaardcategorie waaraan uw recensies worden toegevoegd"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1072
+msgid "You have not created any categories."
+msgstr ""
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1095
+#, fuzzy
+msgid ""
+"Allow users to choose the category they want their testimonial to be added to"
+msgstr "Kies een standaardcategorie waaraan uw recensies worden toegevoegd"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1105
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/forms.php:208
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:67
+msgid "Display Testimonials Based On Category"
+msgstr "Weergave recensies op basis van categorie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials-pro/sola-testimonials-pro.php:1218
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:182
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:419
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:724
+msgid "Read More"
+msgstr "Lees meer"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/feedback.php:9
+msgid "Sola Testimonials Feedback"
+msgstr "Sola Testimonials Feedback"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/feedback.php:11
+msgid "We'd love to hear your comments and/or suggestions"
+msgstr "We horen graag uw opmerkingen en/of suggesties"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/feedback.php:16
+msgid "Your Name"
+msgstr "Uw naam"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/feedback.php:24
+msgid "Your Email"
+msgstr "Uw e-mail"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/feedback.php:32
+msgid "Your Website"
+msgstr "Uw website"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/feedback.php:40
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:239
+msgid "Feedback"
+msgstr "Feedback"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/feedback.php:50
+msgid "Send Feedback"
+msgstr "Feedback verzenden"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:6
+msgid "Support Desk"
+msgstr "Support Desk"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:7
+msgid "Contact"
+msgstr "Contact"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:9
+msgid ""
+"If you find any errors or if you have any suggestions, Get in contact with "
+"us via our "
+msgstr ""
+"Als u fouten vindt of suggesties heeft, neem dan contact met ons op via onze"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:11
+msgid "Follow us on Twitter"
+msgstr "Volg ons op Twitter"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:16
+msgid "Sola Testimonials Premium Version: "
+msgstr "Sola Testimonials Premium Versie: "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:17
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:22
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:21
+msgid "Sola Testimonials Version: "
+msgstr "Sola Testimonials Versie: "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/footer.php:23
+msgid "Go Premium"
+msgstr "Neem Premium"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:4
+msgid "Sola Testimonials - Settings"
+msgstr "Sola Testimonials - Instellingen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:5
+msgid ""
+"Please ensure you have saved any changes before navigating to another tab"
+msgstr ""
+"Zorg ervoor dat u alle wijzigingen hebt opgeslagen voordat u naar een ander "
+"tabblad gaat"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:10
+msgid "Styles"
+msgstr "Stijlen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:11
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:12
+msgid "Options"
+msgstr "Opties"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:13
+msgid "Form Options"
+msgstr "Formulieropties"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:14
+msgid "Slider"
+msgstr "Slider"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings.php:16
+msgid "Upgrade"
+msgstr "Upgraden"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:2
+msgid ""
+"The below options will only affect testimonials using the 'Single' or 'Grid' "
+"Layouts. To change the options of your slider, plese navigate to the "
+"'Slider' tab."
+msgstr ""
+"De onderstaande opties hebben alleen betrekking op recensies die de "
+"'Enkelvoudig' of 'Raster' lay-out gebruiken. Om de opties van de slider te "
+"wijzigen gaat u naar het tabblad 'Slider'."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:5
+msgid "Show Testimonial Title"
+msgstr "Toon titel recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:11
+msgid "Show Testimonial Body"
+msgstr "Toon inhoud recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:17
+msgid "Strip all links out of the testimonials"
+msgstr "Verwijder alle links uit de recensies"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:20
+msgid ""
+"This will remove all links, and prevent your users from viewing the 'Single "
+"view' of a testimonial"
+msgstr ""
+"Dit verwijdert alle koppelingen en voorkomt dat gebruikers de 'Enkelvoudige "
+"weergave' van een recensie kunnen bekijken"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:24
+msgid "Allow HTML to be rendered in the testimonial"
+msgstr "HTML-toestaan in de recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:30
+msgid "Testimonial content type"
+msgstr "Recensie inhoudstype"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:32
+msgid "An Excerpt"
+msgstr "Een fragment"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:33
+msgid "Full Body"
+msgstr "Volledige inhoud"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:37
+msgid "Excerpt Length"
+msgstr "Lengte fragment"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:40
+msgid "How long should your testimonial teaser be? (Specify number of words)."
+msgstr "Hoe lang moet uw recensie teaser zijn? (Aantal woorden opgeven)."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:44
+msgid "Default Image Size"
+msgstr "Standaard Afbeeldingsgrootte"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:47
+msgid "Size of testimonial images (px)."
+msgstr "Grootte van recensie afbeeldingen (px)."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:51
+msgid "Read More Link"
+msgstr "Lees verder link"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:57
+msgid "Show User's Name"
+msgstr "Toon gebruikersnaam"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:63
+msgid "Show Link To User's Website"
+msgstr "Toon link naar website van gebruiker"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:69
+msgid "Show Testimonial Image"
+msgstr "Toon recensie afbeelding"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:76
+msgid "Show Star Rating"
+msgstr "Toon sterbeoordeling"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/options.php:87
+msgid "Show Rating"
+msgstr "Toon Beoordeling"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:20
+msgid "Display A Single Testimonial"
+msgstr "Toon een enkele recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:23
+msgid "Show off a single tesimonial. Use the ID of the testimonial."
+msgstr "Een enkele recensie uitlichten. Gebruik de ID van de recensie."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:32
+msgid "Display All Testimonials"
+msgstr "Toon alle recensies"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:35
+msgid "Show off your raving reviews all on one page"
+msgstr "Uitlichten van alle buitengewone recensies op één pagina"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/shortcodes.php:49
+msgid "Display Testimonials In A Slider"
+msgstr "Toon recensies in een slider"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/slider.php:13
+msgid "Slider Preview"
+msgstr "Slider voorbeeld"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:4
+msgid "Choose an Image Style"
+msgstr "Kies een afbeeldingstijl"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:6
+msgid "Image 1"
+msgstr "Afbeelding 1"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:7
+msgid "Image 2"
+msgstr "Afbeelding 2"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:18
+msgid "Choose a Layout"
+msgstr "Kies een lay-out"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:20
+msgid "Layout 1"
+msgstr "Layout 1"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:21
+msgid "Layout 2"
+msgstr "Layout 2"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:22
+msgid "Layout 3"
+msgstr "Layout 3"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:23
+msgid "Layout 4"
+msgstr "Layout 4"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:24
+msgid "Layout 5"
+msgstr "Layout 5"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:43
+msgid "Choose a Theme"
+msgstr "Kies een thema"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:61
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:62
+msgid "Clean Theme"
+msgstr "Schoon thema"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:63
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:65
+msgid "Bubble Theme"
+msgstr "Bubble thema"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:64
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:66
+msgid "Card Theme"
+msgstr "Kaart thema"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:77
+msgid "Unlock all themes"
+msgstr "Ontgrendelen van alle themas"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:93
+msgid "Style your testimonials to your preference."
+msgstr "Stijl uw recensies naar eigen voorkeur."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/styles.php:109
+msgid ""
+"The following classes can be used to style your testimonials to your "
+"preference"
+msgstr ""
+"De volgende classes kunnen worden gebruikt om de stijl van uw recensies aan "
+"uw voorkeur aan te passen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:8
+msgid "Priority Support"
+msgstr "Priority Support"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:9
+msgid "Pay once and never again!"
+msgstr "Betaal eens en nooit weer!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:10
+msgid "Allow your visitors to submit a testimonial on your site."
+msgstr "Sta uw bezoekers toe een recensie te plaatsen op uw site."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:11
+msgid "Display testimonials in a slider"
+msgstr "Toon recensies in een slider"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:12
+msgid "Organize your testimonials into categories"
+msgstr "Uw rcensies indelen in categorieën"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:13
+msgid "Choose a default category your testimonials will be added to   "
+msgstr "Kies een standaardcategorie waaraan uw recensies worden toegevoegd"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/settings/upgrade.php:16
+msgid "$19.99"
+msgstr "$19.99"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:3
+msgid "Welcome to "
+msgstr "Welkom bij"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:6
+msgid "A super easy to use and comprehensive Testimonial plugin."
+msgstr "Een super makkelijk te gebruiken en uitgebreide Recensie plugin."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:10
+msgid "How did you find us?"
+msgstr "Hoe heeft u ons gevonden?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:15
+msgid "WordPress.org plugin repository "
+msgstr "WordPress.org plugin repository"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:18
+msgid "Search Term"
+msgstr "Zoekterm"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:22
+msgid "Google or other search Engine"
+msgstr "Google of andere zoekmachine"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:28
+msgid "Friend recommendation"
+msgstr "Aanbeveling van een vriend"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:34
+msgid "Other"
+msgstr "Anders"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:38
+msgid "Please Explain"
+msgstr "Leg a.u.b. uit"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:47
+msgid "Submit"
+msgstr "Verzenden"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/includes/welcome-page.php:49
+msgid "Skip"
+msgstr "Overslaan"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:175
+msgid "Testimonial Author"
+msgstr "Auteur recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:201
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:208
+msgid "Our Testimonials"
+msgstr "Onze recensies"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:238
+msgid "Settings"
+msgstr "Instellingen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:371
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:373
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:374
+msgid "Testimonials"
+msgstr "Recensies"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:372
+msgid "Testimonial"
+msgstr "Recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:375
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:376
+msgid "Add New Testimonial"
+msgstr "Nieuwe recensie toevoegen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:377
+msgid "New Testimonial"
+msgstr "Nieuwe recensie"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:378
+msgid "Edit Testimonial"
+msgstr "Recensie bewerken"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:379
+msgid "View Testimonial"
+msgstr "Recensie bekijken"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:380
+msgid "All Testimonials"
+msgstr "Alle recensies"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:381
+msgid "Search Testimonials"
+msgstr "Zoek recensies"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:382
+msgid "Parent Testimonials:"
+msgstr "Bovenliggende recensies:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:383
+msgid "No testimonials Found."
+msgstr "Geen recensies gevonden."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:384
+msgid "No testimonials Found In Trash."
+msgstr "Geen recensies gevonden in de Prullenbak."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:428
+msgid "Testimonial Data"
+msgstr "Recensie gegevens"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:445
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:447
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:619
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:451
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:453
+msgid "User Email Address"
+msgstr "E-mailadres gebruiker"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:455
+msgid ""
+"The users email address will be used to show their gravatar image. To use a "
+"custom image, leave this field blank and enter an Image URL below. "
+msgstr ""
+"Het e-mailadres van de gebruikers wordt gebruikt voor het tonen van hun "
+"gravatar afbeelding. Om een aangepaste afbeelding te gebruiken laat dit veld "
+"leeg en geeft u hieronder de URL van een afbeelding op."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:460
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:462
+msgid "Image URL"
+msgstr "﻿URL afbeelding"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:464
+msgid ""
+"Leave this field blank to use the gravatar image of the author. The User "
+"Image (Right) will override this option."
+msgstr ""
+"Laat dit veld leeg om de gravatar afbeelding van de auteur te gebruiken. De "
+"Gebruikersafbeelding (rechts), overschrijft deze optie."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:471
+msgid "User Website Name"
+msgstr "Naam website gebruiker"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:475
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:621
+msgid "Website Address"
+msgstr "Websiteadres"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:477
+msgid "User Web Address"
+msgstr "Gebruiker webadres"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:488
+msgid ""
+"Please update to the latest version of Sola Testimonials Pro to take "
+"advantage of star ratings"
+msgstr ""
+"Update a.u.b. naar de laatste versie van Sola Testimonials om "
+"sterbeoordelingen te kunnen gebruiken."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:530
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:624
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:583
+msgid "Testimonial Status"
+msgstr "Recensiestatus"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:601
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:622
+msgid "Status"
+msgstr "Status"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:605
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:648
+msgid "Pending Approval"
+msgstr "Wacht op goedkeuring"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:606
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:646
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:668
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:680
+msgid "Thank you for your feedback. We will be in touch soon"
+msgstr "Bedankt voor uw feedback. Wij nemen spoedig contact met u op."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:684
+msgid "There was a problem sending your feedback. Please log your feedback on "
+msgstr ""
+"Er is een probleem opgetreden bij het verzenden van uw feedback. Gelieve uw "
+"feedback doorgeven op"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\sola-testimonials/sola-testimonials.php:792
+msgid "User Image"
+msgstr "Gebruikersafbeelding"
