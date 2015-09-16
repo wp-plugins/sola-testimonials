@@ -3,13 +3,22 @@
  * Plugin Name: Sola Testimonials
  * Plugin URI: http://solaplugins.com
  * Description: A super easy to use and comprehensive Testimonial plugin.
- * Version: 1.8.1
+ * Version: 1.8.3
  * Author: Sola Plugins
  * Author URI: http://solaplugins.com
  * License: GPL2
  */
 
-/* 1.8.1 2015-05-05 - Low Priority
+/* 1.8.3 - 2015-09-16 - Low Priority
+ * New Feature: Display your testimonials using a widget
+ *
+ * 1.8.2 - 2015-09-09 - Low Priority
+ * Feedback form email address rectified
+ * Translations added:
+ *  Dutch (Thank you Albert van der Ploeg)
+ *  French (Thank you Frederic Grolleau)
+ * 
+ * 1.8.1 2015-05-05 - Low Priority
  * Translations added:
  *  Brazilian Portuguese (Thank you Marcio Marodin)
  *  Spanish (Thank you Esteban Truelsegaard)
@@ -83,6 +92,28 @@ remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 add_filter('get_the_excerpt', 'sola_t_custom_excerpt');
 
 require_once 'includes/shortcodes.php';
+require_once 'includes/widget.php';
+
+add_action( 'widgets_init', function(){
+    
+    register_widget( 'Sola_Testimonials_Widget_Single' );
+    register_widget( 'Sola_Testimonials_Widget_Random' );
+
+    if( function_exists( 'sola_t_pro_activate' ) ) {
+
+        if( class_exists ( 'Sola_Testimonials_Widget_Slider_Pro' ) ) { 
+            
+            register_widget( 'Sola_Testimonials_Widget_Slider_Pro' );        
+
+        }
+
+    } else {
+
+        register_widget( 'Sola_Testimonials_Widget_Slider_Basic' );
+
+    }
+
+} );
 
 add_filter('pre_get_posts', 'sola_t_loop_control');
 add_filter('manage_testimonials_posts_columns' , 'sola_t_columns');
@@ -96,7 +127,7 @@ register_uninstall_hook(__FILE__, 'sola_t_uninstall');
 global $sola_t_version;
 global $sola_t_version_string;
 
-$sola_t_version = "1.8.1";
+$sola_t_version = "1.8.3";
 $sola_t_version_string = "Basic";
 
 function sola_t_init(){
@@ -656,12 +687,13 @@ function sola_t_populate_columns($column) {
 
 function sola_t_admin_head(){
     if (isset($_POST['sola_t_send_feedback'])) {
+        $headers_mail = 'From: '.$_POST['sola_t_feedback_email'].' < '.$_POST['sola_t_feedback_email'].' >' ."\r\n";
         if(wp_mail("support@solaplugins.com", "Plugin feedback", 
                 "Name: ".$_POST['sola_t_feedback_name']."\n\r".
                 "Email: ".$_POST['sola_t_feedback_email']."\n\r".
                 "Website: ".$_POST['sola_t_feedback_website']."\n\r".
                 "Feedback:".$_POST['sola_t_feedback_feedback']."\n\r
-                Sent from Sola Testimonials")){
+                Sent from Sola Testimonials", $headers_mail)){
             echo "<div id=\"message\" class=\"updated\"><p>".__("Thank you for your feedback. We will be in touch soon","sola_t")."</p></div>";
         } else {
             if (function_exists('curl_version')) {

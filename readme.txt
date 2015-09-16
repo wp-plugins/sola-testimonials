@@ -3,7 +3,7 @@ Contributors: SolaPlugins, Jarryd Long, NickDuncan
 Donate link: http://solaplugins.com
 Tags: testimonial, testimonials, testimonial plugin, testimonial widget, testimonial manager
 Requires at least: 3.6
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2
 
@@ -116,6 +116,8 @@ Get a free copy of the Sola Testimonials Premium version in exchange for transla
 * Swedish (Jorgen Sjoholm)
 * Brazilian Portuguese (Marcio Marodin)
 * Spanish (Esteban Truelsegaard)
+* Dutch (Albert van der Ploeg)
+* French (Frederic Grolleau)
 
 
 = How to effectively use testimonials =
@@ -177,6 +179,12 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.8.2 - 2015-09-09 - Low Priority =
+* Feedback form email address rectified
+* Translations added:
+*  Dutch (Thank you Albert van der Ploeg)
+*  French (Thank you Frederic Grolleau)
 
 = 1.8.1 2015-05-05 - Low Priority =
 * Translations added:

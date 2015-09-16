@@ -12,6 +12,9 @@
             <a class="nav-tab <?php if(isset($_GET['tab']) && $_GET['tab'] == 'options') { echo 'nav-tab-active'; } ?>" href="?post_type=testimonials&page=sola_t_settings&tab=options"><?php _e('Options', 'sola_t'); ?></a>
             <a class="nav-tab <?php if(isset($_GET['tab']) && $_GET['tab'] == 'forms') { echo 'nav-tab-active'; } ?>" href="?post_type=testimonials&page=sola_t_settings&tab=forms"><?php _e('Form Options', 'sola_t'); ?></a>
             <a class="nav-tab <?php if(isset($_GET['tab']) && $_GET['tab'] == 'slider') { echo 'nav-tab-active'; } ?>" href="?post_type=testimonials&page=sola_t_settings&tab=slider"><?php _e('Slider', 'sola_t'); ?></a>
+            <?php if(function_exists('sola_t_pro_activate')){ ?>
+            <a class="nav-tab <?php if(isset($_GET['tab']) && $_GET['tab'] == 'categories') { echo 'nav-tab-active'; } ?>" href="?post_type=testimonials&page=sola_t_settings&tab=categories"><?php _e('Categories', 'sola_t'); ?></a>
+            <?php } ?>
             <?php if (!function_exists('sola_t_register_pro')){ ?>
                 <a class="nav-tab <?php if(isset($_GET['tab']) && $_GET['tab'] == 'upgrade') { echo 'nav-tab-active'; } ?>" href="?post_type=testimonials&page=sola_t_settings&tab=upgrade"><?php _e('Upgrade', 'sola_t'); ?></a>
             <?php } ?>
@@ -36,9 +39,12 @@
             case 'slider':
                 include 'settings/slider.php';
                 break;
+            case 'categories':
+                include 'settings/categories.php';
+                break;
             case 'upgrade':
                 include 'settings/upgrade.php';
-                break;
+                break;            
             default:
                 include 'settings/styles.php';
                 break;
