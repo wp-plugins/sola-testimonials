@@ -34,6 +34,8 @@ The easiest to use Testimonial plugin! Showcase your testimonials in a beautiful
 * Show/hide the testimonial website and link
 * All testimonial links are nofollow as per Google Webmaster Guidelines
 * Show/hide the testimonial image
+* Display a single testimonial using a widget
+* Display a random testimonial using a widget
 
 = Premium Features =
 * Two additional themes
@@ -43,6 +45,7 @@ The easiest to use Testimonial plugin! Showcase your testimonials in a beautiful
 * Allow users to submit a testimonial through an easy to use and customizable form
 * Enable CAPTCHA in your testimonial submission form
 * Categorize your testimonials
+* Display testimonials in a slider using a widget
 * Allow users to submit reviews (star ratings included in testimonial)
 * Priority [support](http://solaplugins.com/support-desk) 
 * Get the [Sola Testimonials Premium Version](http://solaplugins.com/plugins/sola-testimonials/?utm_source=wordpress&utm_medium=click&utm_campaign=readme) now
@@ -179,6 +182,9 @@ Showing your testimonials within a widget is easy. Simply copy and paste the sho
 Not applicable.
 
 == Changelog ==
+
+= 1.8.3 - 2015-09-16 - Low Priority =
+* New Feature: Display your testimonials using a widget
 
 = 1.8.2 - 2015-09-09 - Low Priority =
 * Feedback form email address rectified
